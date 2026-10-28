@@ -1,0 +1,66 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{thoth}[2026/10/14 This package contains essential commands used for LaTeX generating]
+
+% 3. Nạp các package phụ thuộc (Thay thế cho \usepackage)
+% Nếu lệnh của bạn cần dùng toán học hay màu sắc, hãy gọi chúng ở đây:
+\RequirePackage{amsmath, amssymb, amsfonts}
+\RequirePackage{graphicx}
+\RequirePackage{enumitem}
+
+% 4. Định nghĩa các lệnh (command) của bạn tại đây
+% --- Lệnh không có tham số ---
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newcommand{\CalOne}{GIẢI TÍCH I}
+\newcommand{\CalOneCode}{MI1111}
+\newcommand{\CalTwo}{GIẢI TÍCH II}
+\newcommand{\CalTwoCode}{MI1121}
+\newcommand{\CalThree}{GIẢI TÍCH III}
+\newcommand{\CalThreeCode}{MI1141}
+\newcommand{\Algebra}{ĐẠI SỐ}
+\newcommand{\AlgebraCode}{MI1141}
+
+\newcommand{\Ending}{
+\vspace{0.8cm}
+\begin{center}
+    \rule[0.5ex]{1cm}{0.4pt}HẾT\rule[0.5ex]{1cm}{0.4pt}%
+\end{center}
+}
+% --- Lệnh có 1 tham số ---
+\newcommand{\OnePointQues}[1]{\textbf{Câu #1 (1đ).}}
+\newcommand{\TwoPointQues}[1]{\textbf{Câu #1 (2đ).}}
+\newcommand{\ThreePointQues}[1]{\textbf{Câu #1 (3đ).}}
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+
+% --- Lệnh có tham số tùy chọn (mặc định là 'x') ---
+\newcommand{\Heading}[2]{
+\vspace{0.3cm}
+\begin{center}
+    \textbf{
+        ĐỀ THI CUỐI KỲ MÔN #1\\
+        Mã học phần: #2. Thời gian: 90 phút.\\
+    }
+\end{center}
+
+\vspace{0.1cm}
+\textit{\textbf{Chú ý: Thí sinh không được sử dụng tài liệu và giám thị phải ký xác nhận số đề vào bài làm.}}
+\vspace{0.6cm}
+}
+
+\newcommand{\Header}[1]{
+\noindent
+\begin{minipage}[t]{0.2\textwidth}
+\fbox{\textbf{Đề #1}}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+\raggedleft
+\textit{KHOA TOÁN -- TIN}
+\end{minipage}
+}
+
+% 5. Kết thúc file (Tùy chọn nhưng nên có để code sạch sẽ)
+\endinput

@@ -1,0 +1,598 @@
+[
+  {
+    "question_code": "2026-10-24-18-39-1",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_chain_rule"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Tính các hàm số hợp sau:"
+    },
+    "part": {
+      "a_inline_math_01_01": "f(x, y) = \\frac{x^2 + y^2}{x^3 y + y^3 x},\\ x(t) = \\cos t,\\ y(t) = \\sin t",
+      "a_line_01_01": ". Tính",
+      "a_inline_math_01_02": "f(x(t), y(t))",
+      "a_line_01_02": ".",
+      "b_inline_math_01_01": "f(x, y) = e^{x^2 + y^2}(x^2 + xy + y^2),\\ u(r, \\theta) = r\\cos\\theta,\\ v(r, \\theta) = r\\sin\\theta",
+      "b_line_01_01": ". Tính",
+      "b_inline_math_01_02": "f(u(r, \\theta), v(r, \\theta))",
+      "b_line_01_02": "."
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-2",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_multivariable_limits"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Tìm các giới hạn (nếu có) của các hàm số sau:"
+    },
+    "part": {
+      "a_inline_math_01_01": "f(x, y) = \\frac{xy}{x^2 + y^2},\\ (x, y) \\to (0, 0)",
+      "b_inline_math_01_01": "f(x, y) = \\frac{(x - 1)^3 - (y - 2)^3}{(x - 1)^2 + (y - 2)^2},\\ (x, y) \\to (1, 2)",
+      "c_inline_math_01_01": "f(x, y) = \\frac{1 - \\cos\\sqrt{x^2 + y^2}}{x^2 + y^2},\\ (x, y) \\to (0, 0)",
+      "d_inline_math_01_01": "f(x, y) = \\frac{x(e^y - 1) - y(e^x - 1)}{x^2 + y^2},\\ (x, y) \\to (0, 0)",
+      "e_inline_math_01_01": "f(x, y) = \\frac{xy^2}{x^2 + y^4},\\ (x, y) \\to (0, 0)"
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "d": null,
+      "e": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-3",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_multivariable_limits"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Xét hàm số",
+      "display_system_02_01": {
+        "style": "cases",
+        "eqs": [
+          "x^2\\sin\\frac{1}{y}\\ \\text{nếu } y \\neq 0,",
+          "0\\ \\text{nếu } y = 0."
+        ]
+      }
+    },
+    "part": {
+      "a_line_01_01": "Chứng minh hàm số",
+      "a_inline_math_01_01": "f(x, y)",
+      "a_line_01_02": "liên tục tại",
+      "a_inline_math_01_02": "(0, 0)",
+      "a_line_01_03": ".",
+      "b_line_01_01": "Chứng minh hàm số",
+      "b_inline_math_01_01": "f(x, y)",
+      "b_line_01_02": "không liên tục tại mọi điểm",
+      "b_inline_math_01_02": "(x, 0), x \\in \\mathbb{R} \\setminus \\{0\\}",
+      "b_line_01_03": "."
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-4",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_multivariable_limits"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Tính các giới hạn sau:"
+    },
+    "part": {
+      "a_inline_math_01_01": "\\lim_{x \\to 0} \\lim_{y \\to 0} \\frac{x^2}{x^2 + y^2}",
+      "b_inline_math_01_01": "\\lim_{y \\to 0} \\lim_{x \\to 0} \\frac{x^2}{x^2 + y^2}",
+      "c_inline_math_01_01": "\\lim_{(x, y) \\to (0, 0)} \\frac{x^2}{x^2 + y^2}"
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null,
+      "c": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-5",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_partial_derivatives"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Tính các đạo hàm riêng của các hàm số sau:"
+    },
+    "part": {
+      "a_inline_math_01_01": "z = \\ln(x + \\sqrt{x^2 + y^2})",
+      "b_inline_math_01_01": "z = y^2\\sin\\frac{x}{y}",
+      "c_inline_math_01_01": "z = \\arctan\\sqrt{\\frac{x^2 - y^2}{x^2 + y^2}}",
+      "d_inline_math_01_01": "z = x^{y^3}\\ (x > 0)",
+      "e_inline_math_01_01": "u = x^{y^z}\\ (x, y, z > 0)",
+      "f_inline_math_01_01": "u = e^{\\frac{1}{x^2 + y^2 + z^2}}"
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "d": null,
+      "e": null,
+      "f": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-6",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_multivariable_limits",
+      "c3_partial_derivatives"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Khảo sát sự liên tục của hàm số và sự tồn tại các đạo hàm riêng của nó"
+    },
+    "part": {
+      "a_line_01_01": "",
+      "a_inline_math_01_01": "f(x, y) =",
+      "a_display_system_02_01": {
+        "style": "cases",
+        "eqs": [
+          "x\\arctan\\left(\\frac{y}{x}\\right)^2,\\ \\text{nếu } x \\neq 0,",
+          "0,\\ \\text{nếu } x = 0."
+        ]
+      },
+      "b_line_01_01": "",
+      "b_inline_math_01_01": "f(x, y) =",
+      "b_display_system_02_01": {
+        "style": "cases",
+        "eqs": [
+          "\\frac{x\\sin y - y\\sin x}{x^2 + y^2},\\ \\text{nếu } (x, y) \\neq (0, 0),",
+          "0,\\ \\text{nếu } (x, y) = (0, 0)."
+        ]
+      }
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-7",
+    "question_type": "FRQ_SP",
+    "section_tags": [
+      "c3_partial_derivatives",
+      "c3_chain_rule"
+    ],
+    "point": null,
+    "question": {
+      "line_01_01": "Giả sử",
+      "inline_math_01_01": "z = y f(x^2 - y^2)",
+      "line_01_02": ", ở đây",
+      "inline_math_01_02": "f",
+      "line_01_03": "là hàm số khả vi. Chứng minh rằng",
+      "display_math_02_01": "\\frac{1}{x} z'_x + \\frac{1}{y} z'_y = \\frac{z}{y^2}."
+    },
+    "solution": null
+  },
+  {
+    "question_code": "2026-10-24-18-39-8",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_chain_rule"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Tìm đạo hàm riêng các hàm số hợp sau:"
+    },
+    "part": {
+      "a_inline_math_01_01": "z = e^{u^2 - 2v^2},\\ u = \\cos x,\\ v = \\sqrt{x^2 + y^2}",
+      "b_inline_math_01_01": "z = \\ln(u^2 + v^2),\\ u = xy,\\ v = \\frac{x}{y}",
+      "c_inline_math_01_01": "z = \\arcsin(x - y),\\ x = 3t,\\ y = 4t^3"
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null,
+      "c": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-9",
+    "question_type": "FRQ_SP",
+    "section_tags": [
+      "c3_higher_order_derivatives"
+    ],
+    "point": null,
+    "question": {
+      "line_01_01": "Cho",
+      "inline_math_01_01": "f",
+      "line_01_02": "là hàm số khả vi đến cấp hai trên",
+      "inline_math_01_02": "\\mathbb{R}",
+      "line_01_03": ". Chứng minh rằng hàm số",
+      "inline_math_01_03": "\\omega(x, t) = f(x - 3t)",
+      "line_01_04": "thỏa mãn phương trình truyền sóng",
+      "display_math_02_01": "\\frac{\\partial^2 \\omega}{\\partial t^2} = 9\\frac{\\partial^2 \\omega}{\\partial x^2}."
+    },
+    "solution": null
+  },
+  {
+    "question_code": "2026-10-24-18-39-10",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_total_differentials"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Tìm vi phân toàn phần của các hàm số sau:"
+    },
+    "part": {
+      "a_inline_math_01_01": "z = \\sin(x^2 + y^2)",
+      "b_inline_math_01_01": "z = \\ln\\tan\\frac{y}{x}",
+      "c_inline_math_01_01": "z = \\arctan\\frac{x + y}{x - y}",
+      "d_inline_math_01_01": "u = x^{y^{2z}}"
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "d": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-11",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_total_differentials"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Ứng dụng vi phân, tính gần đúng:"
+    },
+    "part": {
+      "a_inline_math_01_01": "A = \\sqrt[3]{(1,02)^2 + (0,05)^2}",
+      "b_inline_math_01_01": "B = \\ln(\\sqrt[3]{1,03} + \\sqrt[4]{0,98} - 1)",
+      "c_inline_math_01_01": "C = \\sqrt{(2,02)^3 + e^{0,03}}",
+      "d_inline_math_01_01": "D = (1,02)^{1,01}"
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "d": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-12",
+    "question_type": "FRQ_SP",
+    "section_tags": [
+      "c3_implicit_functions",
+      "c3_total_differentials"
+    ],
+    "point": null,
+    "question": {
+      "line_01_01": "Cho",
+      "inline_math_01_01": "z = f(x, y)",
+      "line_01_02": "là hàm số ẩn xác định bởi phương trình",
+      "inline_math_01_02": "z - ye^{\\frac{z}{x}} = 0",
+      "line_01_03": ". Ứng dụng vi phân, tính gần đúng",
+      "inline_math_01_03": "f(0,99; 0,02)",
+      "line_01_04": "."
+    },
+    "solution": null
+  },
+  {
+    "question_code": "2026-10-24-18-39-13",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_implicit_functions"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Tìm đạo hàm, đạo hàm riêng của các hàm số ẩn xác định bởi các phương trình sau:"
+    },
+    "part": {
+      "a_inline_math_01_01": "x^3 y - y^3 x = a^4",
+      "a_line_01_01": ", tính",
+      "a_inline_math_01_02": "y'",
+      "b_inline_math_01_01": "x + y + z = e^z",
+      "b_line_01_01": ", tính",
+      "b_inline_math_01_02": "z'_x, z'_y",
+      "c_inline_math_01_01": "\\arctan\\frac{x + y}{a} = \\frac{y}{a}",
+      "c_line_01_01": ", tính",
+      "c_inline_math_01_02": "y'",
+      "d_inline_math_01_01": "x^3 + y^3 + z^3 - 3xyz = 0",
+      "d_line_01_01": ", tính",
+      "d_inline_math_01_02": "z'_x, z'_y"
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "d": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-14",
+    "question_type": "FRQ_SP",
+    "section_tags": [
+      "c3_implicit_functions"
+    ],
+    "point": null,
+    "question": {
+      "line_01_01": "Cho hàm số ẩn",
+      "inline_math_01_01": "z = z(x, y)",
+      "line_01_02": "xác định bởi phương trình",
+      "inline_math_01_02": "2x^2 y + 4y^2 + x^2 z + z^3 = 3",
+      "line_01_03": ". Tính",
+      "inline_math_01_03": "\\frac{\\partial z}{\\partial x}(0; 1), \\frac{\\partial z}{\\partial y}(0; 1)",
+      "line_01_04": "."
+    },
+    "solution": null
+  },
+  {
+    "question_code": "2026-10-24-18-39-15",
+    "question_type": "FRQ_SP",
+    "section_tags": [
+      "c3_implicit_functions",
+      "c3_chain_rule"
+    ],
+    "point": null,
+    "question": {
+      "line_01_01": "Cho",
+      "inline_math_01_01": "u = \\frac{x + z}{y + z}",
+      "line_01_02": ", tính",
+      "inline_math_01_02": "u'_x, u'_y",
+      "line_01_03": "biết rằng",
+      "inline_math_01_03": "z",
+      "line_01_04": "là hàm số ẩn của",
+      "inline_math_01_04": "x, y",
+      "line_01_05": "xác định bởi phương trình",
+      "inline_math_01_05": "z e^z = x e^x + y e^y",
+      "line_01_06": "."
+    },
+    "solution": null
+  },
+  {
+    "question_code": "2026-10-24-18-39-16",
+    "question_type": "FRQ_SP",
+    "section_tags": [
+      "c3_implicit_functions"
+    ],
+    "point": null,
+    "question": {
+      "line_01_01": "Tìm đạo hàm của hàm số ẩn",
+      "inline_math_01_01": "y(x), z(x)",
+      "line_01_02": "xác định bởi hệ",
+      "display_system_02_01": {
+        "style": "cases",
+        "eqs": [
+          "x + y + z = 0",
+          "x^2 + y^2 + z^2 = 1."
+        ]
+      }
+    },
+    "solution": null
+  },
+  {
+    "question_code": "2026-10-24-18-39-17",
+    "question_type": "FRQ_SP",
+    "section_tags": [
+      "c3_implicit_functions"
+    ],
+    "point": null,
+    "question": {
+      "line_01_01": "Phương trình",
+      "inline_math_01_01": "z^2 + \\frac{2}{x} = \\sqrt{y^2 - z^2}",
+      "line_01_02": ", xác định hàm ẩn",
+      "inline_math_01_02": "z = z(x, y)",
+      "line_01_03": ". Chứng minh rằng",
+      "display_math_02_01": "x^2 z'_x + \\frac{1}{y} z'_y = \\frac{1}{z}."
+    },
+    "solution": null
+  },
+  {
+    "question_code": "2026-10-24-18-39-18",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_higher_order_derivatives"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Tính các đạo hàm riêng cấp hai của hàm số sau:"
+    },
+    "part": {
+      "a_inline_math_01_01": "z = \\frac{1}{3}\\sqrt{(x^2 + y^2)^3}",
+      "b_inline_math_01_01": "z = x^2\\ln(x + y)",
+      "c_inline_math_01_01": "z = \\arctan\\frac{y}{x}",
+      "d_inline_math_01_01": "z = \\sin(x^3 + y^2)"
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "d": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-19",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_higher_order_derivatives"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Tính vi phân cấp hai của các hàm số sau:"
+    },
+    "part": {
+      "a_inline_math_01_01": "z = xy^3 - x^2 y",
+      "b_inline_math_01_01": "z = e^{2x}(x + y^2)",
+      "c_inline_math_01_01": "z = \\ln(x^3 + y^2)"
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null,
+      "c": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-20",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_higher_order_derivatives"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Xét hàm số",
+      "display_system_02_01": {
+        "style": "cases",
+        "eqs": [
+          "\\frac{y^3 x}{x^2 + y^2}\\ \\text{nếu } (x, y) \\neq (0, 0),",
+          "0\\ \\text{nếu } (x, y) = (0, 0)."
+        ]
+      }
+    },
+    "part": {
+      "a_line_01_01": "Chứng minh rằng",
+      "a_inline_math_01_01": "f(x, y)",
+      "a_line_01_02": "có đạo hàm riêng tại",
+      "a_inline_math_01_02": "(0, 0)",
+      "a_line_01_03": "và",
+      "a_inline_math_01_03": "f'_x(x, y), f'_y(x, y)",
+      "a_line_01_04": "liên tục tại",
+      "a_inline_math_01_04": "(0, 0)",
+      "a_line_01_05": ".",
+      "b_line_01_01": "Chứng minh rằng các đạo hàm riêng cấp hai",
+      "b_inline_math_01_01": "f''_{xy}",
+      "b_line_01_02": "và",
+      "b_inline_math_01_02": "f''_{yx}",
+      "b_line_01_03": "của",
+      "b_inline_math_01_03": "f(x, y)",
+      "b_line_01_04": "không liên tục tại",
+      "b_inline_math_01_04": "(0, 0)",
+      "b_line_01_05": "(Gợi ý: Tính",
+      "b_inline_math_01_05": "f''_{xy}(0, 0), f''_{yx}(0, 0)",
+      "b_line_01_06": ")."
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-21",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_higher_order_derivatives"
+    ],
+    "point": null,
+    "main": {},
+    "part": {
+      "a_line_01_01": "Khai triển hàm số",
+      "a_inline_math_01_01": "f(x, y) = x^2 + 3y^2 - 2xy + 6x + 2y - 4",
+      "a_line_01_02": "thành chuỗi Taylor ở lân cận điểm",
+      "a_inline_math_01_02": "(-2, 1)",
+      "a_line_01_03": ".",
+      "b_line_01_01": "Khai triển Maclaurin hàm số",
+      "b_inline_math_01_01": "f(x, y) = e^x\\sin y",
+      "b_line_01_02": "đến bậc 3."
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-22",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_unconstrained_extrema"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Tìm cực trị của các hàm số sau:"
+    },
+    "part": {
+      "a_inline_math_01_01": "z = 4x^3 + 6x^2 - 4xy - y^2 - 8x + 2",
+      "b_inline_math_01_01": "z = 2x^2 + 3y^2 - e^{-(x^2 + y^2)}",
+      "c_inline_math_01_01": "z = 4xy - x^4 - 2y^2",
+      "d_inline_math_01_01": "z = \\frac{4}{x} + \\frac{3}{y} - \\frac{xy}{12}",
+      "e_inline_math_01_01": "z = e^{2x}(4x^2 - 2xy + y^2)",
+      "f_inline_math_01_01": "z = x^3 + y^3 - (x + y)^2"
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "d": null,
+      "e": null,
+      "f": null
+    }
+  },
+  {
+    "question_code": "2026-10-24-18-39-23",
+    "question_type": "FRQ_SP",
+    "section_tags": [
+      "c3_global_extrema"
+    ],
+    "point": null,
+    "question": {
+      "line_01_01": "Tìm một điểm thuộc elip",
+      "inline_math_01_01": "4x^2 + y^2 = 4",
+      "line_01_02": "sao cho nó xa điểm",
+      "inline_math_01_02": "A(1; 0)",
+      "line_01_03": "nhất."
+    },
+    "solution": null
+  },
+  {
+    "question_code": "2026-10-24-18-39-24",
+    "question_type": "FRQ_MP",
+    "section_tags": [
+      "c3_global_extrema"
+    ],
+    "point": null,
+    "main": {
+      "line_01_01": "Tính giá trị lớn nhất và bé nhất của các hàm số sau:"
+    },
+    "part": {
+      "a_inline_math_01_01": "z = x^2 + y^2 + xy - 7x - 8y",
+      "a_line_01_01": "trong hình tam giác giới hạn bởi các đường thẳng",
+      "a_inline_math_01_02": "x = 0,\\ y = 0",
+      "a_line_01_02": ", và",
+      "a_inline_math_01_03": "x + y = 6",
+      "b_inline_math_01_01": "z = 4x^2 - 9y^2",
+      "b_line_01_01": "trong miền giới hạn bởi đường elip",
+      "b_inline_math_01_02": "\\frac{x^2}{9} + \\frac{y^2}{4} = 1"
+    },
+    "end": null,
+    "solution": {
+      "a": null,
+      "b": null
+    }
+  }
+]

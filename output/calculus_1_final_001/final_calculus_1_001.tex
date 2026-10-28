@@ -1,0 +1,68 @@
+\documentclass[14pt, a4paper]{extarticle}
+\usepackage[utf8]{vietnam}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage{mathptmx}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{thoth}
+
+\geometry{
+    left=2cm,
+    right=2cm,
+    top=1.5cm,
+    bottom=2cm
+}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\Header{001}
+
+\vspace{2pt}
+\noindent\rule{\textwidth}{0.5pt}
+
+\Heading{\CalOne}{\CalOneCode}
+
+\OnePointQues{1} Xác định $a, b$ sao cho hàm số sau đây có giới hạn hữu hạn khi $x \to 0$
+\[f(x) = \frac{1}{\sin^3 x} - \frac{1}{x^3} - \frac{a}{x^2} - \frac{b}{x}.\]
+
+\vspace{0.3cm}
+\OnePointQues{2} Cho $f$ là hàm số khả vi đến cấp hai trên $\mathbb{R}$ . Chứng minh rằng hàm số $\omega(x, t) = f(x - 3t)$ thỏa mãn phương trình truyền sóng
+\[\frac{\partial^2 \omega}{\partial t^2} = 9\frac{\partial^2 \omega}{\partial x^2}.\]
+
+\vspace{0.3cm}
+\OnePointQues{3} Chứng minh rằng hàm số $f(x) = \int_0^x \arctan t dt$ là một vô cùng lớn khi $x \to +\infty$ . So sánh bậc của $f(x)$ với $\beta(x) = \ln x$ .
+
+\vspace{0.5cm}
+\OnePointQues{4} Tìm một điểm thuộc elip $4x^2 + y^2 = 4$ sao cho nó xa điểm $A(1; 0)$ nhất.
+
+\vspace{0.5cm}
+\OnePointQues{5} Nếu $\int_0^{+\infty} f(x)dx$ hội tụ thì có suy ra được $\lim_{x \to +\infty} f(x) = 0$ không? Xét ví dụ $\int_0^{+\infty} \sin(x^2)dx$ .
+
+\vspace{0.5cm}
+\OnePointQues{6} Cho $z = f(x, y)$ là hàm số ẩn xác định bởi phương trình $z - ye^{\frac{z}{x}} = 0$ . Ứng dụng vi phân, tính gần đúng $f(0,99; 0,02)$ .
+
+\vspace{0.5cm}
+\OnePointQues{7} Cho $u = \frac{x + z}{y + z}$ , tính $u'_x, u'_y$ biết rằng $z$ là hàm số ẩn của $x, y$ xác định bởi phương trình $z e^z = x e^x + y e^y$ .
+
+\vspace{0.5cm}
+\OnePointQues{8} Khảo sát sự hội tụ của tích phân suy rộng $\int_0^1 x^\alpha(\ln x)^\beta dx$ với $\alpha, \beta \in \mathbb{R}$ .
+
+\vspace{0.5cm}
+\OnePointQues{9} Tính thể tích vật thể giới hạn bởi mặt cong $z = 4 - y^2$ , các mặt phẳng tọa độ $x = 0,\ z = 0$ và mặt phẳng $x = a\ (a \neq 0)$ .
+
+\vspace{0.5cm}
+\OnePointQues{10} (Mở rộng của Bài 23) Cho hai điểm $A = (-1, 3)$ và $B = (2, 4)$ . Tìm tất cả các giá trị $a \in \mathbb{R}$ sao cho với mọi đường cong cho bởi tham số $(C)$
+\[\begin{cases} x = x(t) \\ y = y(t) \end{cases}\]
+, $t \in \mathbb{R}$ , với $x(t), y(t)$ là các hàm số liên tục, đi qua $A$ và $B$ thì đường thẳng $y = ax$ luôn cắt $(C)$ tại ít nhất một điểm khác $A$ và $B$ .
+
+\vspace{0.5cm}
+
+\end{document}

@@ -1,0 +1,141 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{thoth}[2026/10/23 Thoth package - Practice exam template (combined midterm + final)]
+
+% ============================================================
+% Nạp các package phụ thuộc
+% ============================================================
+\RequirePackage{amsmath, amssymb, amsfonts}
+\RequirePackage{graphicx}
+\RequirePackage{enumitem}
+\RequirePackage{array}
+\RequirePackage{tabularx}
+\RequirePackage{lastpage}
+\RequirePackage{fancyhdr}
+
+% ============================================================
+% Ký hiệu toán học
+% ============================================================
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+% ============================================================
+% Tên môn học và mã học phần
+% ============================================================
+\newcommand{\CalOne}{GIẢI TÍCH I}
+\newcommand{\CalOneCode}{MI1111}
+\newcommand{\CalTwo}{GIẢI TÍCH II}
+\newcommand{\CalTwoCode}{MI1121}
+\newcommand{\CalThree}{GIẢI TÍCH III}
+\newcommand{\CalThreeCode}{MI1141}
+\newcommand{\Algebra}{ĐẠI SỐ}
+\newcommand{\AlgebraCode}{MI1141}
+
+% ============================================================
+% Lệnh kết thúc đề thi
+% ============================================================
+\newcommand{\Ending}{%
+\vspace{0.4cm}
+\begin{center}
+    \rule[0.5ex]{1cm}{0.4pt}HẾT\rule[0.5ex]{1cm}{0.4pt}%
+\end{center}
+}
+
+% ============================================================
+% Lệnh câu hỏi tự luận theo điểm
+% ============================================================
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+\newcommand{\OnePointQues}[1]{\textbf{Câu #1 (1đ).}}
+\newcommand{\TwoPointQues}[1]{\textbf{Câu #1 (2đ).}}
+\newcommand{\ThreePointQues}[1]{\textbf{Câu #1 (3đ).}}
+
+% ============================================================
+% Danh sách câu hỏi trắc nghiệm (hanging indent)
+% ============================================================
+\newlist{danhsachcau}{enumerate}{1}
+\setlist[danhsachcau]{
+    label=\textbf{Câu \arabic*.},
+    leftmargin=*,
+    align=left,
+    labelsep=0.4em,
+    itemsep=5pt,
+    topsep=3pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+% ============================================================
+% Thụt lề và chiều rộng cho khối đáp án trắc nghiệm
+% ============================================================
+\newlength{\optindent}
+\setlength{\optindent}{0.45cm}
+\newlength{\optwidth}
+\setlength{\optwidth}{\dimexpr\textwidth-\optindent\relax}
+\AtBeginDocument{%
+    \setlength{\optwidth}{\dimexpr\textwidth-\optindent\relax}%
+}
+
+% ============================================================
+% Macro 4 đáp án: 2 cột x 2 hàng (A/B trái, C/D phải)
+% ============================================================
+\newcommand{\haicot}[4]{%
+    \par\nopagebreak\vspace{2.5pt}%
+    \noindent\hspace*{-\dimexpr\leftmargin-\optindent\relax}%
+    \begin{minipage}[t]{0.46\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{A.} #1\end{minipage}\hfill%
+    \begin{minipage}[t]{0.48\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{C.} #3\end{minipage}\par\nopagebreak\vspace{2.5pt}%
+    \noindent\hspace*{-\dimexpr\leftmargin-\optindent\relax}%
+    \begin{minipage}[t]{0.46\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{B.} #2\end{minipage}\hfill%
+    \begin{minipage}[t]{0.48\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{D.} #4\end{minipage}%
+    \par
+}
+
+% ============================================================
+% Macro 4 đáp án: 4 cột trên 1 dòng
+% ============================================================
+\newcommand{\boncot}[4]{%
+    \par\nopagebreak\vspace{2.5pt}%
+    \noindent\hspace*{-\dimexpr\leftmargin-\optindent\relax}%
+    \makebox[0.25\optwidth][l]{\textbf{A.} #1}%
+    \makebox[0.25\optwidth][l]{\textbf{B.} #2}%
+    \makebox[0.25\optwidth][l]{\textbf{C.} #3}%
+    \makebox[0.25\optwidth][l]{\textbf{D.} #4}%
+    \par
+}
+
+% ============================================================
+% Macro 5 đáp án: Trái (A, B), Phải (C, D, E)
+% ============================================================
+\newcommand{\namcot}[5]{%
+    \par\nopagebreak\vspace{2.5pt}%
+    \noindent\hspace*{-\dimexpr\leftmargin-\optindent\relax}%
+    \begin{minipage}[t]{0.46\optwidth}
+        \raggedright\hangindent=1.5em\hangafter=1\textbf{A.} #1\par\vspace{8pt}
+        \raggedright\hangindent=1.5em\hangafter=1\textbf{B.} #2
+    \end{minipage}\hfill%
+    \begin{minipage}[t]{0.48\optwidth}
+        \raggedright\hangindent=1.5em\hangafter=1\textbf{C.} #3\par\vspace{4.5pt}
+        \raggedright\hangindent=1.5em\hangafter=1\textbf{D.} #4\par\vspace{4.5pt}
+        \raggedright\hangindent=1.5em\hangafter=1\textbf{E.} #5
+    \end{minipage}%
+    \par
+}
+
+% ============================================================
+% Macro 6 đáp án: 2 cột x 3 hàng
+% ============================================================
+\newcommand{\saucot}[6]{%
+    \par\nopagebreak\vspace{2.5pt}%
+    \noindent\hspace*{-\dimexpr\leftmargin-\optindent\relax}%
+    \begin{minipage}[t]{0.46\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{A.} #1\end{minipage}\hfill%
+    \begin{minipage}[t]{0.48\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{D.} #4\end{minipage}\par\nopagebreak\vspace{2.5pt}%
+    \noindent\hspace*{-\dimexpr\leftmargin-\optindent\relax}%
+    \begin{minipage}[t]{0.46\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{B.} #2\end{minipage}\hfill%
+    \begin{minipage}[t]{0.48\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{E.} #5\end{minipage}\par\nopagebreak\vspace{2.5pt}%
+    \noindent\hspace*{-\dimexpr\leftmargin-\optindent\relax}%
+    \begin{minipage}[t]{0.46\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{C.} #3\end{minipage}\hfill%
+    \begin{minipage}[t]{0.48\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{F.} #6\end{minipage}%
+    \par
+}
+
+\endinput

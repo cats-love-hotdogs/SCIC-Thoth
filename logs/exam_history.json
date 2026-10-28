@@ -1,0 +1,23 @@
+[
+  {
+    "subject": "calculus_1",
+    "exam_type": "final",
+    "exam_code": "001",
+    "question_codes": [
+      "2026-10-24-18-39-50",
+      "2026-10-24-18-39-9",
+      "2026-10-24-18-39-12",
+      "2026-10-24-18-39-23",
+      "2026-10-24-18-39-23",
+      "2026-10-24-18-39-12",
+      "2026-10-24-18-39-15",
+      "2026-10-24-18-39-21",
+      "2026-10-24-18-39-27",
+      "2026-10-24-18-39-56"
+    ],
+    "question_count": 10,
+    "pdf_path": "D:\\Coding\\ICSC_CLI\\output\\calculus_1_final_001\\final_calculus_1_001.pdf",
+    "tex_path": "D:\\Coding\\ICSC_CLI\\output\\calculus_1_final_001\\final_calculus_1_001.tex",
+    "timestamp": "2026-10-24T19:09:21.693944"
+  }
+]

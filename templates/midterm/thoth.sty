@@ -1,0 +1,172 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{thoth}[2026/10/22 This package contains essential commands used for Midterm LaTeX generating]
+
+% 3. Nạp các package phụ thuộc (Thay thế cho \usepackage)
+% Nếu lệnh của bạn cần dùng toán học hay bảng biểu, hãy gọi chúng ở đây:
+\RequirePackage{amsmath, amssymb, amsfonts}
+\RequirePackage{graphicx}
+\RequirePackage{enumitem}
+\RequirePackage{array}
+\RequirePackage{tabularx}
+
+% 4. Định nghĩa các lệnh (command) của bạn tại đây
+% --- Lệnh không có tham số (bê nguyên từ thoth.sty) ---
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newcommand{\CalOne}{GIẢI TÍCH I}
+\newcommand{\CalOneCode}{MI1111}
+\newcommand{\CalTwo}{GIẢI TÍCH II}
+\newcommand{\CalTwoCode}{MI1121}
+\newcommand{\CalThree}{GIẢI TÍCH III}
+\newcommand{\CalThreeCode}{MI1141}
+\newcommand{\Algebra}{ĐẠI SỐ}
+\newcommand{\AlgebraCode}{MI1141}
+
+% --- Lệnh kết thúc đề thi (Ending) ---
+\newcommand{\Ending}{%
+\vspace{0.4cm}
+\begin{center}
+    \rule[0.5ex]{1cm}{0.4pt}HẾT\rule[0.5ex]{1cm}{0.4pt}%
+\end{center}
+}
+
+% --- Lệnh có tham số toán học/tự luận ---
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+\newcommand{\OnePointQues}[1]{\textbf{Câu #1 (1đ).}}
+\newcommand{\TwoPointQues}[1]{\textbf{Câu #1 (2đ).}}
+\newcommand{\ThreePointQues}[1]{\textbf{Câu #1 (3đ).}}
+
+% --- Lệnh Heading cho đề thi giữa kỳ ---
+\newcommand{\Heading}[2]{%
+\noindent
+\makebox[9.8cm][c]{\textbf{ĐẠI HỌC BÁCH KHOA HÀ NỘI}}%
+\hfill
+\makebox[8.0cm][c]{\textbf{KHOA TOÁN - TIN}}
+\vspace{0.15cm}
+
+\noindent
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}m{9.6cm}|X|}
+\hline
+\textbf{ĐỀ KIỂM TRA GIỮA KỲ} \par \vspace{0.15cm}
+\textbf{Học phần: #1. Mã học phần: #2} \par \vspace{0.15cm}
+\textit{Thời gian làm bài: 40 phút}
+&
+\textbf{Họ và tên sinh viên:} \dotfill \par \vspace{0.2cm}
+\textbf{MSSV:} \dotfill \hspace{0.2cm}\textbf{STT:} \dotfill \par \vspace{0.2cm}
+\textbf{Mã lớp học:} \dotfill \\
+\hline
+\multicolumn{2}{|@{}p{\dimexpr\textwidth-2\arrayrulewidth\relax}@{}|}{%
+    \setlength{\tabcolsep}{3pt}%
+    \begin{tabularx}{\linewidth}{>{\centering\arraybackslash}p{3.2cm}|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X}
+    \small\textbf{Tổng điểm bài thi} & \small\textbf{Họ tên và chữ ký của cán bộ chấm thi} & \small\textbf{Họ tên và chữ ký của cán bộ coi thi} \\[1.1cm]
+    \end{tabularx}%
+} \\
+\hline
+\end{tabularx}%
+}
+
+% --- Lệnh Header cho mã đề thi giữa kỳ (hỗ trợ \Header{mã_đề} hoặc \Header{mã_đề}{số_câu}) ---
+\makeatletter
+\newcommand{\Header}[1]{%
+  \@ifnextchar\bgroup{\Header@two{#1}}{\Header@one{#1}}%
+}
+\newcommand{\Header@one}[1]{\Header@two{#1}{15}}
+\newcommand{\Header@two}[2]{%
+\vspace{0.2cm}
+\begin{center}
+    \setlength{\fboxsep}{3pt}%
+    \fbox{\textbf{Mã đề thi: #1}} \textbf{(Đề gồm #2 câu)}
+\end{center}
+\vspace{-0.15cm}
+\noindent\textbf{Chú ý:} \textit{Sinh viên không sử dụng tài liệu khi làm bài thi.}\par
+\vspace{2pt}
+\noindent\rule{\textwidth}{0.4pt}\par
+\vspace{3pt}
+}
+\makeatother
+
+% --- Lệnh phân chia phần đề thi ---
+\newcommand{\PartOne}{\noindent\textbf{I. Câu có 01 đáp án đúng}\par\vspace{2pt}}
+\newcommand{\PartTwo}{\vspace{3pt}\noindent\textbf{II. Câu có nhiều hơn 01 đáp án đúng (tất cả các đáp án phải chọn đúng hoặc sai)}\par\vspace{2pt}}
+
+% --- Danh sách câu hỏi có hanging indent ---
+\newlist{danhsachcau}{enumerate}{1}
+\setlist[danhsachcau]{
+    label=\textbf{Câu \arabic*.},
+    leftmargin=*,
+    align=left,
+    labelsep=0.4em,
+    itemsep=5pt,
+    topsep=3pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+% --- Thụt lề và chiều rộng cho khối đáp án ---
+\newlength{\optindent}
+\setlength{\optindent}{0.45cm}
+\newlength{\optwidth}
+\setlength{\optwidth}{\dimexpr\textwidth-\optindent\relax}
+\AtBeginDocument{%
+    \setlength{\optwidth}{\dimexpr\textwidth-\optindent\relax}%
+}
+
+% --- Macro 4 cột trên 1 dòng (Câu 2, 3, 4, 5, 8) ---
+\newcommand{\boncot}[4]{%
+    \par\nopagebreak\vspace{2.5pt}%
+    \noindent\hspace*{-\dimexpr\leftmargin-\optindent\relax}%
+    \makebox[0.25\optwidth][l]{\textbf{A.} #1}%
+    \makebox[0.25\optwidth][l]{\textbf{B.} #2}%
+    \makebox[0.25\optwidth][l]{\textbf{C.} #3}%
+    \makebox[0.25\optwidth][l]{\textbf{D.} #4}%
+    \par
+}
+
+% --- Macro 2 cột x 2 hàng (Câu 1, 6, 7, 9, 10, 14) ---
+\newcommand{\haicot}[4]{%
+    \par\nopagebreak\vspace{2.5pt}%
+    \noindent\hspace*{-\dimexpr\leftmargin-\optindent\relax}%
+    \begin{minipage}[t]{0.46\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{A.} #1\end{minipage}\hfill%
+    \begin{minipage}[t]{0.48\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{C.} #3\end{minipage}\par\nopagebreak\vspace{2.5pt}%
+    \noindent\hspace*{-\dimexpr\leftmargin-\optindent\relax}%
+    \begin{minipage}[t]{0.46\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{B.} #2\end{minipage}\hfill%
+    \begin{minipage}[t]{0.48\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{D.} #4\end{minipage}%
+    \par
+}
+
+% --- Macro 2 cột x 3 hàng (Câu 12, 13, 15) ---
+\newcommand{\saucot}[6]{%
+    \par\nopagebreak\vspace{2.5pt}%
+    \noindent\hspace*{-\dimexpr\leftmargin-\optindent\relax}%
+    \begin{minipage}[t]{0.46\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{A.} #1\end{minipage}\hfill%
+    \begin{minipage}[t]{0.48\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{D.} #4\end{minipage}\par\nopagebreak\vspace{2.5pt}%
+    \noindent\hspace*{-\dimexpr\leftmargin-\optindent\relax}%
+    \begin{minipage}[t]{0.46\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{B.} #2\end{minipage}\hfill%
+    \begin{minipage}[t]{0.48\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{E.} #5\end{minipage}\par\nopagebreak\vspace{2.5pt}%
+    \noindent\hspace*{-\dimexpr\leftmargin-\optindent\relax}%
+    \begin{minipage}[t]{0.46\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{C.} #3\end{minipage}\hfill%
+    \begin{minipage}[t]{0.48\optwidth}\raggedright\hangindent=1.5em\hangafter=1\textbf{F.} #6\end{minipage}%
+    \par
+}
+
+% --- Macro 5 đáp án (Câu 11): Trái (A, B), Phải (C, D, E) ---
+\newcommand{\namcot}[5]{%
+    \par\nopagebreak\vspace{2.5pt}%
+    \noindent\hspace*{-\dimexpr\leftmargin-\optindent\relax}%
+    \begin{minipage}[t]{0.46\optwidth}
+        \raggedright\hangindent=1.5em\hangafter=1\textbf{A.} #1\par\vspace{8pt}
+        \raggedright\hangindent=1.5em\hangafter=1\textbf{B.} #2
+    \end{minipage}\hfill%
+    \begin{minipage}[t]{0.48\optwidth}
+        \raggedright\hangindent=1.5em\hangafter=1\textbf{C.} #3\par\vspace{4.5pt}
+        \raggedright\hangindent=1.5em\hangafter=1\textbf{D.} #4\par\vspace{4.5pt}
+        \raggedright\hangindent=1.5em\hangafter=1\textbf{E.} #5
+    \end{minipage}%
+    \par
+}
+
+% 5. Kết thúc file (Tùy chọn nhưng nên có để code sạch sẽ)
+\endinput

@@ -1,0 +1,2982 @@
+{
+  "metadata": {
+    "title": "BÀI TẬP THAM KHẢO GIẢI TÍCH I",
+    "date": null,
+    "subject": "Calculus 1"
+  },
+  "body": [
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_function_concepts"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm tập xác định của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "y = \\sqrt[4]{\\frac{2x - 1}{1 + 3x}}",
+        "b_inline_math_01_01": "y = \\ln(\\tan x)",
+        "c_inline_math_01_01": "y = \\sqrt{2\\operatorname{arccot} x - \\pi}",
+        "d_inline_math_01_01": "y = \\arcsin \\frac{2x}{1 + x}",
+        "e_inline_math_01_01": "y = \\sqrt[3]{\\frac{x}{1 - \\sinh^2 x}}",
+        "f_inline_math_01_01": "y = \\arccos(\\cosh(x) - 1)"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_elementary_functions"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Chứng minh các đẳng thức sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\sinh(-x) = -\\sinh x",
+        "b_inline_math_01_01": "\\sinh(x + y) = \\sinh x \\cosh y + \\cosh x \\sinh y",
+        "c_inline_math_01_01": "\\cosh(x + y) = \\cosh x \\cosh y + \\sinh x \\sinh y",
+        "d_inline_math_01_01": "\\sinh 2x = 2\\sinh x \\cosh x",
+        "e_inline_math_01_01": "\\cosh^2 x - \\sinh^2 x = 1",
+        "f_inline_math_01_01": "\\cosh 2x = \\cosh^2 x + \\sinh^2 x"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_function_concepts"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm miền giá trị của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "y = \\cosh(x)",
+        "b_inline_math_01_01": "y = \\sinh(\\sin x)",
+        "c_inline_math_01_01": "y = \\log(1 - 2\\cos x)",
+        "d_inline_math_01_01": "y = \\arcsin(\\ln x)",
+        "e_inline_math_01_01": "y = \\operatorname{arccot}(\\sin x)",
+        "f_inline_math_01_01": "y = \\arctan(e^x)"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_function_concepts"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Từ ngày 10/5/2025, Tập đoàn Điện lực Việt Nam áp dụng biểu giá bán lẻ điện sinh hoạt theo 6 bậc như bảng dưới đây:",
+        "line_02_01": "Bậc 1: 0 - 50 (kWh), Giá điện: 1.984 (đồng/kWh)",
+        "line_03_01": "Bậc 2: 51 - 100 (kWh), Giá điện: 2.050 (đồng/kWh)",
+        "line_04_01": "Bậc 3: 101 - 200 (kWh), Giá điện: 2.380 (đồng/kWh)",
+        "line_05_01": "Bậc 4: 201 - 300 (kWh), Giá điện: 2.998 (đồng/kWh)",
+        "line_06_01": "Bậc 5: 301 - 400 (kWh), Giá điện: 3.350 (đồng/kWh)",
+        "line_07_01": "Bậc 6: 401 trở lên (kWh), Giá điện: 3.460 (đồng/kWh)"
+      },
+      "part": {
+        "a_line_01_01": "Một hộ gia đình tiêu thụ 355 số điện trong một tháng thì số tiền điện phải trả là bao nhiêu?",
+        "b_line_01_01": "Với",
+        "b_inline_math_01_01": "x",
+        "b_line_01_02": "là mức tiêu thụ điện của hộ gia đình (kWh), hãy viết hàm số",
+        "b_inline_math_01_02": "f(x)",
+        "b_line_01_03": "biểu diễn giá tiền điện phải trả của hộ gia đình đó (đơn vị đồng)."
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_function_concepts"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Xét tính chẵn lẻ của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "f(x) = a^x + a^{-x},\\ (a > 0)",
+        "b_inline_math_01_01": "f(x) = \\ln(x + \\sqrt{1 + x^2})",
+        "c_inline_math_01_01": "f(x) = \\sin x + \\cos x",
+        "d_inline_math_01_01": "f(x) = \\arcsin(\\tan x)"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_function_concepts"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Cho hàm số",
+        "inline_math_01_01": "f(x) = \\frac{x + 1}{x - 1}",
+        "line_01_02": "và hàm số",
+        "inline_math_01_02": "g(x) = \\frac{2x}{x + 2}",
+        "line_01_03": "."
+      },
+      "part": {
+        "a_line_01_01": "Tính",
+        "a_inline_math_01_01": "f(f(x)), g(g(x))",
+        "a_line_01_02": "và",
+        "a_inline_math_01_02": "f(g(x))",
+        "a_line_01_03": ".",
+        "b_line_01_01": "Tìm hàm số",
+        "b_inline_math_01_01": "h(x)",
+        "b_line_01_02": "sao cho",
+        "b_inline_math_01_02": "f(h(x)) = g(x)",
+        "b_line_01_03": "."
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_function_concepts"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm hàm ngược của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "f: [\\pi, 2\\pi] \\to [-1, 1],\\ f(x) = \\cos x",
+        "b_inline_math_01_01": "y = 2\\arcsin x",
+        "c_inline_math_01_01": "y = \\frac{1 - x}{1 + x}",
+        "d_inline_math_01_01": "y = \\sinh x"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_function_concepts"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Xét tính tuần hoàn và tìm chu kỳ (nếu có) của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "f(x) = \\arccos(\\sin x)",
+        "b_inline_math_01_01": "f(x) = \\cos(\\arcsin x)",
+        "c_inline_math_01_01": "f(x) = \\cos^2 x",
+        "d_inline_math_01_01": "f(x) = \\frac{\\sin 2x}{\\sqrt{2}\\cos x}",
+        "e_inline_math_01_01": "f(x) = 2\\sin x + \\sin 2x",
+        "f_inline_math_01_01": "f(x) = \\sin(x^2)"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_sequences"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Xét sự hội tụ và tìm giới hạn (nếu có) của các dãy số với số hạng tổng quát",
+        "inline_math_01_01": "u_n",
+        "line_01_02": "như sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "u_n = n - \\sqrt{n^2 - n}",
+        "b_inline_math_01_01": "u_n = \\frac{1}{1.2} + \\frac{1}{2.3} + \\ldots + \\frac{1}{(n - 1)n}",
+        "c_inline_math_01_01": "u_n = \\frac{\\sin^2 n - \\cos^3 n}{n}",
+        "d_inline_math_01_01": "u_n = \\frac{n + \\cos n}{n^2 + \\sin(n^2)}",
+        "e_inline_math_01_01": "u_n = \\frac{2^n}{n^2}",
+        "f_inline_math_01_01": "u_n = \\frac{n\\cos(n\\pi)}{n + 1}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_function_limits"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Tính giới hạn",
+        "inline_math_01_01": "\\lim_{x \\to 1} x^2",
+        "line_01_02": "bằng định nghĩa."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_function_limits"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm các giới hạn sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\lim_{x \\to 0} \\left(\\frac{1}{x}\\sqrt{1 + x} - \\frac{1}{x}\\right)",
+        "b_inline_math_01_01": "\\lim_{x \\to +\\infty} (\\sqrt[3]{x^3 + x^2 - 1} - x)",
+        "c_inline_math_01_01": "\\lim_{x \\to -\\infty} (x + \\sqrt{x^2 + 1})",
+        "d_inline_math_01_01": "\\lim_{x \\to 0} \\frac{\\sqrt[m]{1 + \\alpha x} - 1}{x},\\ (m \\in \\mathbb{N}^*, \\alpha \\neq 0)",
+        "e_inline_math_01_01": "\\lim_{x \\to 0^+} x^\\alpha \\sin\\frac{1}{x^\\beta},\\ \\alpha, \\beta \\in \\mathbb{R}",
+        "f_inline_math_01_01": "\\lim_{x \\to +\\infty} \\cos x"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_function_limits"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Cho hàm số",
+        "inline_math_01_01": "f(x) = 1 + x\\sin\\frac{1}{x}",
+        "line_01_02": "với",
+        "inline_math_01_02": "x \\neq 0",
+        "line_01_03": "và hàm số",
+        "display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "2 + (x - 1)\\sin\\frac{1}{x - 1},\\ \\text{nếu } x \\neq 1,",
+            "0,\\ \\text{nếu } x = 1."
+          ]
+        }
+      },
+      "part": {
+        "a_line_01_01": "Chứng minh rằng",
+        "a_inline_math_01_01": "\\lim_{x \\to 0} f(x) = 1",
+        "a_line_01_02": "và",
+        "a_inline_math_01_02": "\\lim_{x \\to 1} g(x) = 2",
+        "a_line_01_03": ".",
+        "b_line_01_01": "Khẳng định",
+        "b_inline_math_01_01": "\\lim_{x \\to 0} g(f(x)) = 2",
+        "b_line_01_02": "có đúng không? Giải thích."
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_infinitesimals_infinities"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "So sánh các cặp VCB sau:"
+      },
+      "part": {
+        "a_line_01_01": "",
+        "a_inline_math_01_01": "\\alpha(x) = \\sqrt{x + \\sqrt{x}}",
+        "a_line_01_02": "và",
+        "a_inline_math_01_02": "\\beta(x) = e^{\\sin x} - \\cos x",
+        "a_line_01_03": ", khi",
+        "a_inline_math_01_03": "x \\to 0^+",
+        "b_line_01_01": "",
+        "b_inline_math_01_01": "\\alpha(x) = \\sqrt[3]{x} - \\sqrt{x}",
+        "b_line_01_02": "và",
+        "b_inline_math_01_02": "\\beta(x) = \\cos x - 1",
+        "b_line_01_03": ", khi",
+        "b_inline_math_01_03": "x \\to 0^+",
+        "c_line_01_01": "",
+        "c_inline_math_01_01": "\\alpha(x) = x^3 + \\sin^2 x",
+        "c_line_01_02": "và",
+        "c_inline_math_01_02": "\\beta(x) = \\ln(1 + 2\\arctan(x^2))",
+        "c_line_01_03": ", khi",
+        "c_inline_math_01_03": "x \\to 0",
+        "d_line_01_01": "",
+        "d_inline_math_01_01": "\\alpha(x) = \\sin x - \\tan x + x^2",
+        "d_line_01_02": "và",
+        "d_inline_math_01_02": "\\beta(x) = \\sin x - \\tan x",
+        "d_line_01_03": ", khi",
+        "d_inline_math_01_03": "x \\to 0"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_function_limits",
+        "c1_infinitesimals_infinities"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm các giới hạn sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\lim_{x \\to 0} \\frac{x + \\sin^2 x + \\tan^3 x}{e^x - \\cos 2x + 2x}",
+        "b_inline_math_01_01": "\\lim_{x \\to 0^+} \\frac{\\ln(x + \\arcsin^3 x) - \\ln x}{x^2}",
+        "c_inline_math_01_01": "\\lim_{x \\to +\\infty} (\\sin\\sqrt{x + 1} - \\sin\\sqrt{x})",
+        "d_inline_math_01_01": "\\lim_{x \\to 0} \\frac{\\sqrt{\\cos x} - \\sqrt[3]{\\cos x}}{\\sin^2 x}",
+        "e_inline_math_01_01": "\\lim_{x \\to 0} \\frac{1 - \\cos x \\cos 2x}{1 - \\cos x}",
+        "f_inline_math_01_01": "\\lim_{x \\to +\\infty} (3^x|\\sin x| + 2^x|\\cos x|)"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_continuous_functions"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Cho hàm số",
+        "display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "-1\\ \\text{nếu } x \\in [k\\pi, \\frac{\\pi}{2} + k\\pi]",
+            "1\\ \\text{nếu } x \\in (\\frac{\\pi}{2} + k\\pi, (k + 1)\\pi)"
+          ]
+        },
+        "line_03_01": ", ",
+        "inline_math_03_01": "k \\in \\mathbb{Z}",
+        "line_03_02": "."
+      },
+      "part": {
+        "a_line_01_01": "Xác định và phân loại các điểm gián đoạn của hàm số",
+        "a_inline_math_01_01": "f(x)",
+        "a_line_01_02": ".",
+        "b_line_01_01": "Xác định và phân loại các điểm gián đoạn của hàm số",
+        "b_inline_math_01_01": "f(x)\\sin x",
+        "b_line_01_02": "."
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_continuous_functions"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm",
+        "inline_math_01_01": "a",
+        "line_01_02": "để hàm số liên tục tại",
+        "inline_math_01_02": "x = 0"
+      },
+      "part": {
+        "a_line_01_01": "",
+        "a_inline_math_01_01": "f(x) =",
+        "a_display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "\\frac{1 - \\cos x}{x^2},\\ \\text{nếu } x \\neq 0,",
+            "a,\\ \\text{nếu } x = 0."
+          ]
+        },
+        "b_line_01_01": "",
+        "b_inline_math_01_01": "g(x) =",
+        "b_display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "ax^2 + bx + 1,\\ \\text{nếu } x \\geq 0,",
+            "a\\cos x + b\\sin x,\\ \\text{nếu } x < 0."
+          ]
+        }
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_continuous_functions"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Hàm",
+        "inline_math_01_01": "f(x)",
+        "line_01_02": "sau liên tục tại những giá trị",
+        "inline_math_01_02": "x",
+        "line_01_03": "nào?"
+      },
+      "part": {
+        "a_line_01_01": "",
+        "a_inline_math_01_01": "f(x) =",
+        "a_display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "0,\\ \\text{nếu } x \\text{ hữu tỉ},",
+            "1,\\ \\text{nếu } x \\text{ vô tỉ}."
+          ]
+        },
+        "b_line_01_01": "",
+        "b_inline_math_01_01": "f(x) =",
+        "b_display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "0,\\ \\text{nếu } x \\text{ hữu tỉ},",
+            "x,\\ \\text{nếu } x \\text{ vô tỉ}."
+          ]
+        }
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_continuous_functions"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Điểm",
+        "inline_math_01_01": "x = 0",
+        "line_01_02": "là điểm gián đoạn loại gì của các hàm số sau?"
+      },
+      "part": {
+        "a_inline_math_01_01": "y = \\frac{8}{1 - 2^{\\cot x}}",
+        "b_inline_math_01_01": "y = \\frac{1}{x}\\arcsin x",
+        "c_inline_math_01_01": "y = \\frac{\\sin\\frac{1}{x}}{e^{\\frac{1}{x}} + 1}",
+        "d_inline_math_01_01": "y = \\frac{e^{ax} - e^{bx}}{x}\\ (a \\neq b)"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_continuous_functions"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Cho hàm số",
+        "display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "a + e^{\\frac{b}{x}}\\ \\text{nếu } x > 0",
+            "e^{bx}\\ \\text{nếu } x < 0"
+          ]
+        },
+        "line_03_01": ",",
+        "inline_math_03_01": "a, b \\in \\mathbb{R}",
+        "line_03_02": ". Tìm",
+        "inline_math_03_02": "a, b",
+        "line_03_03": "để hàm số",
+        "inline_math_03_03": "f(x)",
+        "line_03_04": "nhận",
+        "inline_math_03_04": "x = 0",
+        "line_03_05": "là"
+      },
+      "part": {
+        "a_line_01_01": "điểm gián đoạn loại I không bỏ được",
+        "b_line_01_01": "Gián đoạn loại I bỏ được",
+        "c_line_01_01": "Gián đoạn loại II"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_continuous_functions"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Chứng minh rằng phương trình",
+        "inline_math_01_01": "\\alpha x^3 + \\sin(x + e^x) - \\ln(2x^2 + 1) = 0",
+        "line_01_02": "luôn có nghiệm với mọi",
+        "inline_math_01_02": "\\alpha \\in \\mathbb{R}",
+        "line_01_03": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_continuous_functions"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Tìm một hàm số",
+        "inline_math_01_01": "f(x)",
+        "line_01_02": "liên tục trên",
+        "inline_math_01_02": "\\mathbb{R}",
+        "line_01_03": "thoả mãn",
+        "inline_math_01_03": "\\lim_{x \\to +\\infty} f(x)",
+        "line_01_04": "và",
+        "inline_math_01_04": "\\lim_{x \\to -\\infty} f(x)",
+        "line_01_05": "tồn tại và hữu hạn nhưng",
+        "inline_math_01_05": "f(x)",
+        "line_01_06": "không đạt giá trị lớn nhất và không đạt giá trị nhỏ nhất trên",
+        "inline_math_01_06": "\\mathbb{R}",
+        "line_01_07": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_function_limits",
+        "c1_lhospital_rule"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các giới hạn sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\lim_{x \\to +\\infty} \\left(\\frac{x^2 - 1}{x^2 + 1}\\right)^{\\frac{x - 1}{x + 1}}",
+        "b_inline_math_01_01": "\\lim_{x \\to 0^+} (\\cos\\sqrt{x})^{\\frac{1}{x}}",
+        "c_inline_math_01_01": "\\lim_{x \\to 0} [\\ln(e + 2x)]^{\\frac{1}{\\sin x}}",
+        "d_inline_math_01_01": "\\lim_{x \\to +\\infty} \\left(\\sin\\frac{1}{x} + \\cos\\frac{1}{x}\\right)^x",
+        "e_inline_math_01_01": "\\lim_{x \\to 1} (1 + \\sin(\\pi x))^{\\cot(\\pi x)}",
+        "f_inline_math_01_01": "\\lim_{x \\to 0^+} x^{\\frac{1}{\\sin\\frac{1}{x} + \\ln x}}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_continuous_functions"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Cho hai điểm",
+        "inline_math_01_01": "A = (-1, 3)",
+        "line_01_02": "và",
+        "inline_math_01_02": "B = (2, 4)",
+        "line_01_03": ". Tìm tất cả các giá trị",
+        "inline_math_01_03": "a \\in \\mathbb{R}",
+        "line_01_04": "sao cho với mọi hàm số",
+        "inline_math_01_04": "f(x)",
+        "line_01_05": "liên tục có đồ thị đi qua",
+        "inline_math_01_05": "A",
+        "line_01_06": "và",
+        "inline_math_01_06": "B",
+        "line_01_07": "thì đường thẳng",
+        "inline_math_01_07": "y = ax",
+        "line_01_08": "luôn cắt đồ thị hàm số",
+        "inline_math_01_08": "f(x)",
+        "line_01_09": "tại ít nhất một điểm khác",
+        "inline_math_01_09": "A",
+        "line_01_10": "và",
+        "inline_math_01_10": "B",
+        "line_01_11": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_derivatives_differentials"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Tìm đạo hàm của hàm số",
+        "display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "1 - x,\\ \\text{nếu } x < 1,",
+            "(1 - x)(2 - x),\\ \\text{nếu } 1 \\leq x \\leq 2,",
+            "x - 2,\\ \\text{nếu } x > 2."
+          ]
+        }
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_derivatives_differentials"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Tìm",
+        "inline_math_01_01": "f'(x)",
+        "line_01_02": "biết",
+        "inline_math_01_02": "\\frac{d}{dx}[f(2017x)] = x^2",
+        "line_01_03": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_derivatives_differentials",
+        "c1_continuous_functions"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Cho hàm số",
+        "display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "x^n\\sin\\frac{1}{x},\\ \\text{nếu } x \\neq 0,",
+            "0,\\ \\text{nếu } x = 0,"
+          ]
+        },
+        "line_03_01": "(",
+        "inline_math_03_01": "n \\in \\mathbb{Z}",
+        "line_03_02": ")."
+      },
+      "part": {
+        "a_line_01_01": "Tìm",
+        "a_inline_math_01_01": "n",
+        "a_line_01_02": "để hàm số liên tục tại",
+        "a_inline_math_01_02": "x = 0",
+        "a_line_01_03": ".",
+        "b_line_01_01": "Tìm",
+        "b_inline_math_01_01": "n",
+        "b_line_01_02": "để hàm số khả vi tại",
+        "b_inline_math_01_02": "x = 0",
+        "b_line_01_03": ".",
+        "c_line_01_01": "Tìm",
+        "c_inline_math_01_01": "n",
+        "c_line_01_02": "để",
+        "c_inline_math_01_02": "\\lim_{x \\to 0^+} f'(x)",
+        "c_line_01_03": "và",
+        "c_inline_math_01_03": "\\lim_{x \\to 0^-} f'(x)",
+        "c_line_01_04": "không tồn tại nhưng hàm số",
+        "c_inline_math_01_04": "f(x)",
+        "c_line_01_05": "vẫn khả vi tại",
+        "c_inline_math_01_05": "x = 0",
+        "c_line_01_06": ".",
+        "d_line_01_01": "Tìm",
+        "d_inline_math_01_01": "n",
+        "d_line_01_02": "để hàm số để",
+        "d_inline_math_01_02": "f'(x)",
+        "d_line_01_03": "liên tục tại",
+        "d_inline_math_01_03": "x = 0",
+        "d_line_01_04": "."
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_derivatives_differentials"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính đạo hàm của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "f(x) = \\frac{\\sin x}{\\sqrt{1 + \\cos^2 x}}",
+        "b_inline_math_01_01": "f(x) = \\arcsin(x + e^x)",
+        "c_inline_math_01_01": "f(x) = \\ln(\\cos x + \\arccos x)",
+        "d_inline_math_01_01": "f(x) = \\sqrt{\\tanh x}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_derivatives_differentials"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Cho",
+        "inline_math_01_01": "g(x)",
+        "line_01_02": "là hàm số ngược của hàm số",
+        "inline_math_01_02": "f(x) = \\sinh(x)",
+        "line_01_03": ". Tính",
+        "inline_math_01_03": "g'(x), x \\in \\mathbb{R}",
+        "line_01_04": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_derivatives_differentials"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Cho",
+        "inline_math_01_01": "f(x) = |x - a|\\varphi(x)",
+        "line_01_02": ", trong đó",
+        "inline_math_01_02": "\\varphi(x)",
+        "line_01_03": "là một hàm số liên tục và",
+        "inline_math_01_03": "\\varphi(a) \\neq 0",
+        "line_01_04": ". Chứng minh rằng",
+        "inline_math_01_04": "f(a)",
+        "line_01_05": "không khả vi tại điểm",
+        "inline_math_01_05": "x = a",
+        "line_01_06": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_derivatives_differentials"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm vi phân của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "y = \\frac{1}{a}\\arctan\\frac{x}{a},\\ (a \\neq 0)",
+        "b_inline_math_01_01": "y = \\arcsin\\frac{x}{a},\\ (a \\neq 0)",
+        "c_inline_math_01_01": "y = \\frac{1}{2a}\\ln\\left|\\frac{x - a}{x + a}\\right|,\\ (a \\neq 0)",
+        "d_inline_math_01_01": "y = \\ln|x + \\sqrt{x^2 + a}|"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_derivatives_differentials"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\frac{d}{d(x^2)}\\left(\\frac{\\sin x}{x}\\right)",
+        "b_inline_math_01_01": "\\frac{d(\\sin x)}{d(\\cos x)}",
+        "c_inline_math_01_01": "\\frac{d}{d(x^3)}(x^3 - 2x^6 - x^9)"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_derivatives_differentials"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính gần đúng giá trị của các biểu thức sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\sqrt[3]{7,97}",
+        "b_inline_math_01_01": "\\sqrt[4]{\\frac{2 - 0,02}{2 + 0,02}}",
+        "c_inline_math_01_01": "\\sqrt{3e^{0,04} + 1,02^2}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_derivatives_differentials"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm đạo hàm cấp cao của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "y = \\frac{x^2}{1 - x}",
+        "a_line_01_01": ", tính",
+        "a_inline_math_01_02": "y^{(8)}(x)",
+        "b_inline_math_01_01": "y = \\frac{x + 2}{x^2 + 5x + 4}",
+        "b_line_01_01": ", tính",
+        "b_inline_math_01_02": "y^{(10)}(x)",
+        "c_inline_math_01_01": "y = \\frac{1 + x}{\\sqrt{1 - x}}",
+        "c_line_01_01": ", tính",
+        "c_inline_math_01_02": "y^{(100)}(x)",
+        "d_inline_math_01_01": "y = \\ln(2x - x^2)",
+        "d_line_01_01": ", tính",
+        "d_inline_math_01_02": "y^{(5)}(x)",
+        "e_inline_math_01_01": "y = x^2\\sin x",
+        "e_line_01_01": ", tính",
+        "e_inline_math_01_02": "y^{(50)}(x)",
+        "f_inline_math_01_01": "y = e^{x^2}",
+        "f_line_01_01": ", tính",
+        "f_inline_math_01_02": "y^{(10)}(0)"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_derivatives_differentials"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính đạo hàm cấp",
+        "inline_math_01_01": "n",
+        "line_01_02": "của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "y = \\frac{x}{x^2 - 1}",
+        "b_inline_math_01_01": "y = \\frac{1}{x^2 - 3x + 2}",
+        "c_inline_math_01_01": "y = \\frac{x}{\\sqrt[3]{1 + x}}",
+        "d_inline_math_01_01": "y = \\sin^4 x + \\cos^4 x",
+        "e_inline_math_01_01": "y = \\cos(2 - 3x)",
+        "f_inline_math_01_01": "y = e^{ax}\\sin(bx + c),\\ a, b, c \\in \\mathbb{R}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_derivatives_differentials"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm vi phân cấp cao của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "y = (2x + 1)\\sin x",
+        "a_line_01_01": ". Tính",
+        "a_inline_math_01_02": "d^{10}y(0)",
+        "b_inline_math_01_01": "y = e^x\\cos x",
+        "b_line_01_01": ". Tính",
+        "b_inline_math_01_02": "d^{20}y(0)",
+        "c_inline_math_01_01": "y = x^9\\ln x",
+        "c_line_01_01": ". Tính",
+        "c_inline_math_01_02": "d^{10}y(1)",
+        "d_inline_math_01_01": "y = x^2 e^{ax}",
+        "d_line_01_01": ". Tính",
+        "d_inline_math_01_02": "d^{20}y(0), a \\in \\mathbb{R}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_taylor_maclaurin"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Chứng minh rằng",
+        "inline_math_01_01": "\\forall a, b, c \\in \\mathbb{R}",
+        "line_01_02": ", phương trình",
+        "display_math_02_01": "a\\cos x + b\\cos 2x + c\\cos 3x = 0",
+        "line_03_01": "có nghiệm trong khoảng",
+        "inline_math_03_01": "(0, \\pi)",
+        "line_03_02": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_taylor_maclaurin"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Chứng minh rằng phương trình",
+        "inline_math_01_01": "x^n + px + q = 0",
+        "line_01_02": "với",
+        "inline_math_01_02": "n",
+        "line_01_03": "nguyên dương,",
+        "inline_math_01_03": "n \\geq 2",
+        "line_01_04": ", không thể có quá 2 nghiệm thực nếu",
+        "inline_math_01_04": "n",
+        "line_01_05": "chẵn, không có quá 3 nghiệm thực nếu",
+        "inline_math_01_05": "n",
+        "line_01_06": "lẻ."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_taylor_maclaurin"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Cho ba số thực",
+        "inline_math_01_01": "a, b, c",
+        "line_01_02": "thỏa mãn",
+        "inline_math_01_02": "a + b + c = 0",
+        "line_01_03": ". Chứng minh rằng phương trình",
+        "inline_math_01_03": "8ax^7 + 3bx^2 + c = 0",
+        "line_01_04": "có ít nhất một nghiệm trong khoảng",
+        "inline_math_01_04": "(0, 1)",
+        "line_01_05": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_taylor_maclaurin"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Giải thích tại sao công thức Cauchy dạng",
+        "inline_math_01_01": "\\frac{f(b) - f(a)}{g(b) - g(a)} = \\frac{f'(c)}{g'(c)}",
+        "line_01_02": "không áp dụng được đối với các hàm số",
+        "inline_math_01_02": "f(x) = x^2,\\ g(x) = x^3,\\ -1 \\leq x \\leq 1",
+        "line_01_03": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_taylor_maclaurin"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Chứng minh các bất đẳng thức sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "|\\sin x - \\sin y| \\leq |x - y|",
+        "b_inline_math_01_01": "\\frac{a - b}{a} < \\ln\\frac{a}{b} < \\frac{a - b}{b},\\ 0 < b < a",
+        "c_inline_math_01_01": "\\frac{b - a}{1 + b^2} < \\arctan b - \\arctan a < \\frac{b - a}{1 + a^2},\\ 0 < a < b"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_taylor_maclaurin"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Tồn tại hay không hàm số",
+        "inline_math_01_01": "f(x)",
+        "line_01_02": "sao cho",
+        "inline_math_01_02": "f(0) = -1,\\ f(2) = 4",
+        "line_01_03": "và",
+        "inline_math_01_03": "f'(x) \\leq 2",
+        "line_01_04": "với mọi",
+        "inline_math_01_04": "x",
+        "line_01_05": "?"
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_infinitesimals_infinities",
+        "c1_lhospital_rule"
+      ],
+      "point": null,
+      "main": {},
+      "part": {
+        "a_line_01_01": "Chứng minh rằng với mọi",
+        "a_inline_math_01_01": "\\alpha, \\beta > 0",
+        "a_line_01_02": "thì",
+        "a_inline_math_01_02": "\\lim_{x \\to +\\infty} \\frac{e^{\\alpha x}}{x^\\beta} = +\\infty",
+        "a_line_01_03": "và",
+        "a_inline_math_01_03": "\\lim_{x \\to +\\infty} \\frac{(\\ln x)^\\alpha}{x^\\beta} = 0",
+        "a_line_01_04": ".",
+        "b_line_01_01": "Tìm điều kiện của",
+        "b_inline_math_01_01": "\\beta \\in \\mathbb{R}",
+        "b_line_01_02": "để hàm số",
+        "b_inline_math_01_02": "y = \\ln(x)|\\sin x|^\\beta",
+        "b_line_01_03": "là một vô cùng lớn khi",
+        "b_inline_math_01_03": "x \\to +\\infty",
+        "b_line_01_04": "."
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_lhospital_rule"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các giới hạn sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\lim_{x \\to 1} \\left(\\frac{x}{x - 1} - \\frac{1}{\\ln x}\\right)",
+        "b_inline_math_01_01": "\\lim_{x \\to +\\infty} \\frac{e^{\\frac{1}{x}} - \\cos\\frac{1}{x}}{1 - \\sqrt{1 - \\frac{1}{x^2}}}",
+        "c_inline_math_01_01": "\\lim_{x \\to 0} \\frac{e^x \\sin x - x(1 + x)}{x^3}",
+        "d_inline_math_01_01": "\\lim_{x \\to 0} \\frac{\\sin(\\sin x) - x + \\frac{x^3}{3}}{x^5}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_lhospital_rule"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các giới hạn sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\lim_{x \\to 0^+} x^x",
+        "b_inline_math_01_01": "\\lim_{x \\to 0} (1 - \\cos x)^{\\tan x}",
+        "c_inline_math_01_01": "\\lim_{x \\to -\\infty} (x^2 + 2^x)^{\\frac{1}{x}}",
+        "d_inline_math_01_01": "\\lim_{x \\to 0^+} (\\sinh x)^{\\tanh x}",
+        "e_inline_math_01_01": "\\lim_{x \\to 0^+} x^{\\frac{1}{\\ln x}}",
+        "f_inline_math_01_01": "\\lim_{x \\to 0^+} x^{\\frac{|\\sin\\frac{1}{x}|}{\\ln x}}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_infinitesimals_infinities",
+        "c1_lhospital_rule"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Xét hàm",
+        "inline_math_01_01": "f(x) = x + \\cos x,\\ g(x) = x - \\sin x,\\ x \\in \\mathbb{R}",
+        "line_01_02": "."
+      },
+      "part": {
+        "a_line_01_01": "Chứng minh",
+        "a_inline_math_01_01": "f(x)",
+        "a_line_01_02": "và",
+        "a_inline_math_01_02": "g(x)",
+        "a_line_01_03": "là hai vô cùng lớn tương đương khi",
+        "a_inline_math_01_03": "x \\to +\\infty",
+        "a_line_01_04": ". Ta có thể áp dụng quy tắc L'Hospital để chứng minh không?",
+        "b_line_01_01": "Chứng minh",
+        "b_inline_math_01_01": "e^{f(x)}",
+        "b_line_01_02": "và",
+        "b_inline_math_01_02": "e^{g(x)}",
+        "b_line_01_03": "là hai vô cùng lớn khi",
+        "b_inline_math_01_03": "x \\to +\\infty",
+        "b_line_01_04": ". Hai vô cùng lớn này có tương đương với nhau không? Tại sao?"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_infinitesimals_infinities"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Xét",
+        "inline_math_01_01": "f_1(x) = x,\\ f_2(x) = x + x^2",
+        "line_01_02": "và",
+        "display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "x^3\\sin\\frac{1}{x}\\ \\text{nếu } x \\neq 0,",
+            "0\\ \\text{nếu } x = 0."
+          ]
+        },
+        "line_03_01": "Chứng minh rằng",
+        "inline_math_03_01": "g(f_1(x))",
+        "line_03_02": "và",
+        "inline_math_03_02": "g(f_2(x))",
+        "line_03_03": "là hai vô cùng bé khi",
+        "inline_math_03_03": "x \\to 0",
+        "line_03_04": "nhưng không tương đương với nhau."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_taylor_maclaurin"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính khai triển Maclaurin đến cấp 4 của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "f(x) = \\sin^2 x",
+        "b_inline_math_01_01": "f(x) = \\frac{1}{\\sqrt{1 + x}}",
+        "c_inline_math_01_01": "f(x) = \\ln(1 + 3x)",
+        "d_inline_math_01_01": "f(x) = \\sinh(2x)",
+        "e_inline_math_01_01": "f(x) = e^{x^2}",
+        "f_inline_math_01_01": "f(x) = \\cosh^2(x)"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_taylor_maclaurin"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm khai triển Taylor đến cấp 4 của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "f(x) = \\sin(x)",
+        "a_line_01_01": "tại",
+        "a_inline_math_01_02": "x = 1",
+        "b_inline_math_01_01": "f(x) = \\tan(x)",
+        "b_line_01_01": "tại",
+        "b_inline_math_01_02": "x = \\frac{\\pi}{4}",
+        "c_inline_math_01_01": "f(x) = \\sin(\\sin x)",
+        "c_line_01_01": "tại",
+        "c_inline_math_01_02": "x = 0",
+        "d_inline_math_01_01": "f(x) = \\sin(\\cos x)",
+        "d_line_01_01": "tại",
+        "d_inline_math_01_02": "x = 0"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_derivatives_differentials",
+        "c1_taylor_maclaurin"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Cho phân tích phân thức",
+        "display_math_02_01": "\\frac{1}{x^n(x - 2)} = \\frac{A_{n-1}}{x} + \\frac{A_{n-2}}{x^2} + \\ldots + \\frac{A_1}{x^{n-1}} + \\frac{A_0}{x^n} + \\frac{B}{x - 2},\\ x \\neq 0, x \\neq 2."
+      },
+      "part": {
+        "a_line_01_01": "Chứng minh rằng",
+        "a_inline_math_01_01": "B = \\frac{1}{2^n}",
+        "a_line_01_02": ". (Gợi ý: Nhân cả hai vế với",
+        "a_inline_math_01_02": "x - 2",
+        "a_line_01_03": ").",
+        "b_line_01_01": "Chứng minh rằng với giá trị nguyên",
+        "b_inline_math_01_01": "0 \\leq k \\leq n - 1",
+        "b_line_01_02": ",",
+        "b_display_math_02_01": "A_k = \\frac{1}{k!}\\left.\\frac{d^k}{dx^k}\\left(\\frac{1}{x - 2}\\right)\\right|_{x=0}.",
+        "b_line_03_01": "(Gợi ý: Nhân cả hai vế với",
+        "b_inline_math_03_01": "x^n",
+        "b_line_03_02": "rồi lấy đạo hàm cấp",
+        "b_inline_math_03_02": "k",
+        "b_line_03_03": "hai vế)."
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_taylor_maclaurin",
+        "c1_function_limits"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Xác định",
+        "inline_math_01_01": "a, b",
+        "line_01_02": "sao cho hàm số sau đây có giới hạn hữu hạn khi",
+        "inline_math_01_02": "x \\to 0",
+        "display_math_02_01": "f(x) = \\frac{1}{\\sin^3 x} - \\frac{1}{x^3} - \\frac{a}{x^2} - \\frac{b}{x}."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_monotonic_functions"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Khảo sát tính đơn điệu của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "y = x^4 - 2x^3 + 2x - 1",
+        "b_inline_math_01_01": "y = 3\\arctan x - \\ln(1 + x^2)",
+        "c_inline_math_01_01": "y = \\cosh x",
+        "d_inline_math_01_01": "y = x + |\\sin 2x|,\\ x \\in [0, \\pi]"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_taylor_maclaurin",
+        "c1_monotonic_functions"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Chứng minh các bất đẳng thức sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "2x\\arctan x \\geq \\ln(1 + x^2)",
+        "a_line_01_01": "với mọi",
+        "a_inline_math_01_02": "x \\in \\mathbb{R}",
+        "b_inline_math_01_01": "x - \\frac{x^2}{2} \\leq \\ln(1 + x) \\leq x",
+        "b_line_01_01": "với mọi",
+        "b_inline_math_01_02": "x \\geq 0",
+        "c_inline_math_01_01": "\\cos x \\leq 1 - \\frac{x^2}{2} + \\frac{x^4}{24}",
+        "c_line_01_01": "với mọi",
+        "c_inline_math_01_02": "x \\in \\left[0, \\frac{\\pi}{2}\\right]"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_single_variable_extrema"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm giá trị lớn nhất và giá trị nhỏ nhất của các hàm số trên đoạn đã cho."
+      },
+      "part": {
+        "a_inline_math_01_01": "y = x^3 - 3x + 2",
+        "a_line_01_01": "trên đoạn",
+        "a_inline_math_01_02": "[-2, 2]",
+        "b_inline_math_01_01": "y = \\frac{x^2}{x^2 + 1}",
+        "b_line_01_01": "trên đoạn",
+        "b_inline_math_01_02": "[0, 1]",
+        "c_inline_math_01_01": "y = e^{-2x}(x^2 + x + 1)",
+        "c_line_01_01": "trên đoạn",
+        "c_inline_math_01_02": "[0, 4]",
+        "d_inline_math_01_01": "y = \\sin x + \\sin 3x",
+        "d_line_01_01": "trên đoạn",
+        "d_inline_math_01_02": "[0, 10\\pi]"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_single_variable_extrema"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm cực trị của các hàm số"
+      },
+      "part": {
+        "a_inline_math_01_01": "y = \\frac{3x^2 + 4x + 4}{x^2 + x + 1}",
+        "b_inline_math_01_01": "y = x - \\ln(1 + x)",
+        "c_inline_math_01_01": "y = \\sqrt[3]{(1 - x)(x - 2)^2}",
+        "d_inline_math_01_01": "y = x^{\\frac{2}{3}} + (x - 2)^{\\frac{2}{3}}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_curve_sketching"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm tiệm cận của các đường cong sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "y = \\sqrt[3]{1 + x^3}",
+        "b_inline_math_01_01": "y = \\ln(1 + e^{-x})",
+        "c_inline_math_01_01": "y = \\frac{x^3\\operatorname{arccot} x}{1 + x^2}",
+        "d_inline_math_01_01": "y = \\sqrt{\\frac{x^3}{x - 2}}",
+        "e_line_01_01": "",
+        "e_display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "x = t",
+            "y = t + 2\\arctan t"
+          ]
+        },
+        "f_inline_math_01_01": "y = \\frac{x - 2}{\\sqrt{x^2 + 1}}",
+        "g_line_01_01": "",
+        "g_display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "x = \\frac{2t}{1 - t^2}",
+            "y = \\frac{t^2}{1 + t}"
+          ]
+        }
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null,
+        "g": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_continuous_functions",
+        "c1_curve_sketching"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "(Mở rộng của Bài 23) Cho hai điểm",
+        "inline_math_01_01": "A = (-1, 3)",
+        "line_01_02": "và",
+        "inline_math_01_02": "B = (2, 4)",
+        "line_01_03": ". Tìm tất cả các giá trị",
+        "inline_math_01_03": "a \\in \\mathbb{R}",
+        "line_01_04": "sao cho với mọi đường cong cho bởi tham số",
+        "inline_math_01_04": "(C)",
+        "display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "x = x(t)",
+            "y = y(t)"
+          ]
+        },
+        "line_03_01": ",",
+        "inline_math_03_01": "t \\in \\mathbb{R}",
+        "line_03_02": ", với",
+        "inline_math_03_02": "x(t), y(t)",
+        "line_03_03": "là các hàm số liên tục, đi qua",
+        "inline_math_03_03": "A",
+        "line_03_04": "và",
+        "inline_math_03_04": "B",
+        "line_03_05": "thì đường thẳng",
+        "inline_math_03_05": "y = ax",
+        "line_03_06": "luôn cắt",
+        "inline_math_03_06": "(C)",
+        "line_03_07": "tại ít nhất một điểm khác",
+        "inline_math_03_07": "A",
+        "line_03_08": "và",
+        "inline_math_03_08": "B",
+        "line_03_09": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_indefinite_integrals"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các tích phân bất định sau theo phương pháp đổi biến:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\int \\frac{2x + 1}{\\sqrt[5]{x^2 + x}}dx",
+        "b_inline_math_01_01": "\\int 2x e^{x^2 + 1}dx",
+        "c_inline_math_01_01": "\\int \\tanh x dx",
+        "d_inline_math_01_01": "\\int \\frac{(\\ln x - 1)^2}{x}dx",
+        "e_inline_math_01_01": "\\int \\frac{\\sin(\\tan x)}{\\cos^2 x}dx",
+        "f_inline_math_01_01": "\\int \\frac{\\arcsin x}{\\sqrt{1 - x^2}}dx"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_indefinite_integrals"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các tích phân bất định sau theo phương pháp tích phân từng phần:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\int (x + 2)\\ln x dx",
+        "b_inline_math_01_01": "\\int (2x - 1)^2 e^x dx",
+        "c_inline_math_01_01": "\\int (x^2 + x + 1)\\sin(x)dx",
+        "d_inline_math_01_01": "\\int (x - \\cosh x)^2 dx",
+        "e_inline_math_01_01": "\\int \\arcsin x dx",
+        "f_inline_math_01_01": "\\int \\sin x \\sinh x dx"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_indefinite_integrals"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các tích phân bất định của các phân thức hữu tỷ:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\int \\frac{dx}{1 - 3x + 2x^2}",
+        "b_inline_math_01_01": "\\int \\frac{dx}{9x^2 + 4}",
+        "c_inline_math_01_01": "\\int \\frac{(2x + 1)dx}{4x^2 + 4x + 10}",
+        "d_inline_math_01_01": "\\int \\frac{dx}{x^3 + 8}",
+        "e_inline_math_01_01": "\\int \\frac{dx}{(x^2 + 4)(9x^2 + 1)}",
+        "f_inline_math_01_01": "\\int \\frac{dx}{x^3(x^2 + 1)}",
+        "g_inline_math_01_01": "\\int \\frac{dx}{\\sin x}",
+        "h_inline_math_01_01": "\\int \\frac{dx}{\\cos x}",
+        "i_inline_math_01_01": "\\int \\frac{\\arctan x}{(x + 1)^2}dx"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null,
+        "g": null,
+        "h": null,
+        "i": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_indefinite_integrals"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các tích phân bất định của các hàm vô tỷ:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\int \\sqrt{x^2 + 4}dx",
+        "b_inline_math_01_01": "\\int \\sqrt{9 - 4x^2}dx",
+        "c_inline_math_01_01": "\\int \\frac{1}{\\sqrt{x^2 + 4}}dx",
+        "d_inline_math_01_01": "\\int \\frac{1}{\\sqrt{8 - 6x - 9x^2}}dx",
+        "e_inline_math_01_01": "\\int (x + 1)\\sqrt{x^2 + 1}dx",
+        "f_inline_math_01_01": "\\int \\frac{\\sqrt{x^2 + 1}}{x}dx",
+        "g_inline_math_01_01": "\\int \\frac{\\sqrt{1 - x^2}}{x}dx",
+        "h_inline_math_01_01": "\\int \\frac{dx}{x\\sqrt{x^2 + 1}}",
+        "i_inline_math_01_01": "\\int \\frac{dx}{x\\sqrt{1 - x^2}}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null,
+        "g": null,
+        "h": null,
+        "i": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_indefinite_integrals"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các tích phân bất định sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\int e^{\\sin^2 x}\\sin 2xdx",
+        "b_inline_math_01_01": "\\int (\\ln x + 2)^2 dx",
+        "c_inline_math_01_01": "\\int \\frac{xdx}{(x + 2)(x + 5)}",
+        "d_inline_math_01_01": "\\int \\frac{(x^2 + 2)dx}{x^3 + 1}",
+        "e_inline_math_01_01": "\\int \\frac{dx}{(x + a)^2(x + b)^2}",
+        "f_inline_math_01_01": "\\int \\sin 5x \\cos 3xdx",
+        "g_inline_math_01_01": "\\int \\tan^3 x dx",
+        "h_inline_math_01_01": "\\int \\frac{dx}{3\\sin x - 4\\cos x}",
+        "i_inline_math_01_01": "\\int \\frac{(3 - 2x)dx}{\\sqrt{1 - x^2}}",
+        "j_inline_math_01_01": "\\int \\frac{dx}{1 + \\sqrt{x^2 + 4x + 5}}",
+        "k_inline_math_01_01": "\\int \\frac{(x + 1)dx}{\\sqrt{x^2 - 2x - 1}}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null,
+        "g": null,
+        "h": null,
+        "i": null,
+        "j": null,
+        "k": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_indefinite_integrals"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các tích phân bất định sau với",
+        "inline_math_01_01": "m, n \\in \\mathbb{Z}"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\int \\sin(nx)\\cos(mx)dx",
+        "b_inline_math_01_01": "\\int \\sin(nx)\\sin(mx)dx",
+        "c_inline_math_01_01": "\\int \\cos(nx)\\cos(mx)dx"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_indefinite_integrals"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Lập công thức truy hồi tính",
+        "inline_math_01_01": "I_n, n \\in \\mathbb{N}"
+      },
+      "part": {
+        "a_inline_math_01_01": "I_n = \\int x^n e^x dx",
+        "b_inline_math_01_01": "I_n = \\int \\sin^n x dx",
+        "c_inline_math_01_01": "I_n = \\int \\frac{dx}{\\cos^n x}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c2_definite_integrals"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Cho hàm số",
+        "inline_math_01_01": "f(x) = e^x",
+        "line_01_02": ". Viết tổng tích phân của hàm số",
+        "inline_math_01_02": "f(x)",
+        "line_01_03": "trên đoạn",
+        "inline_math_01_03": "[0, 1]",
+        "line_01_04": ", phép chia",
+        "inline_math_01_04": "x_i = \\frac{i}{n},\\ 0 \\leq i \\leq n",
+        "line_01_05": ", điểm chọn",
+        "inline_math_01_05": "x_j^* = x_j,\\ 1 \\leq j \\leq n",
+        "line_01_06": ". Tính giới hạn của tổng tích phân trên."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_definite_integrals"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các đạo hàm"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\frac{d}{dx}\\int_x^y e^{t^2}dt",
+        "b_inline_math_01_01": "\\frac{d}{dy}\\int_x^y e^{t^2}dt",
+        "c_inline_math_01_01": "\\frac{d}{dx}\\int_{x^2}^{x^3} \\frac{dt}{\\sqrt{1 + t^4}}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_definite_integrals"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Dùng định nghĩa và cách tính tích phân xác định, tìm các giới hạn sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\lim_{n \\to \\infty} \\left[\\frac{1}{n\\alpha} + \\frac{1}{n\\alpha + \\beta} + \\frac{1}{n\\alpha + 2\\beta} + \\cdots + \\frac{1}{n\\alpha + (n - 1)\\beta}\\right],\\ (\\alpha, \\beta > 0)",
+        "b_inline_math_01_01": "\\lim_{n \\to \\infty} \\frac{1}{n}\\left(\\sqrt{1 + \\frac{1}{n}} + \\sqrt{1 + \\frac{2}{n}} + \\cdots + \\sqrt{1 + \\frac{n}{n}}\\right)"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_infinitesimals_infinities",
+        "c2_definite_integrals"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Chứng minh rằng hàm số",
+        "inline_math_01_01": "f(x) = \\int_0^x \\sqrt{\\tan(t)}dt",
+        "line_01_02": "là một vô cùng bé khi",
+        "inline_math_01_02": "x \\to 0^+",
+        "line_01_03": ". So sánh bậc của",
+        "inline_math_01_03": "f(x)",
+        "line_01_04": "với",
+        "inline_math_01_04": "\\alpha(x) = \\sqrt{x}",
+        "line_01_05": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c1_infinitesimals_infinities",
+        "c2_definite_integrals"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Chứng minh rằng hàm số",
+        "inline_math_01_01": "f(x) = \\int_0^x \\arctan t dt",
+        "line_01_02": "là một vô cùng lớn khi",
+        "inline_math_01_02": "x \\to +\\infty",
+        "line_01_03": ". So sánh bậc của",
+        "inline_math_01_03": "f(x)",
+        "line_01_04": "với",
+        "inline_math_01_04": "\\beta(x) = \\ln x",
+        "line_01_05": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_definite_integrals",
+        "c1_lhospital_rule"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các giới hạn sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\lim_{x \\to 0^+} \\frac{\\int_0^{\\sin x} \\sqrt{\\tan t}dt}{\\int_0^{\\tan x} \\sqrt{\\sin t}dt}",
+        "b_inline_math_01_01": "\\lim_{x \\to +\\infty} \\frac{\\int_0^x (\\arctan t)^2 dt}{\\sqrt{x^2 + 1}}",
+        "c_inline_math_01_01": "\\lim_{x \\to +\\infty} \\frac{\\left(\\int_0^x e^{t^2}dt\\right)^2}{\\int_0^x e^{2t^2}dt}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_definite_integrals"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính tích phân xác định trên đoạn",
+        "inline_math_01_01": "[-2, 2]",
+        "line_01_02": "của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "f(x) = (x + \\cosh x)^2",
+        "b_inline_math_01_01": "f(x) = \\ln(x + \\sqrt{x^2 + 1})",
+        "c_line_01_01": "",
+        "c_inline_math_01_01": "f(x) =",
+        "c_display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "-1\\ \\text{nếu } x < -1",
+            "-x\\ \\text{nếu } x \\geq -1"
+          ]
+        },
+        "d_inline_math_01_01": "f(x) = \\frac{1}{(x^2 + 1)(2^x + 1)}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_definite_integrals"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các tích phân xác định sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\int_0^{\\sqrt{3}} \\frac{dx}{9 + x^2}",
+        "b_inline_math_01_01": "\\int_2^4 \\frac{dx}{2 - x - x^2}",
+        "c_inline_math_01_01": "\\int_0^{\\frac{1}{\\sqrt{2}}} \\sqrt{1 - x^2}dx",
+        "d_inline_math_01_01": "\\int_0^1 \\arccos(x)dx",
+        "e_inline_math_01_01": "\\int_0^{\\frac{\\pi}{2}} \\frac{dx}{\\sin x + 2\\cos x + 2}",
+        "f_inline_math_01_01": "\\int_0^\\pi x^2\\sin(nx)dx,\\ n \\in \\mathbb{N}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_definite_integrals"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các tích phân xác định sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\int_{1/e}^e |\\ln x|(x + 1)dx",
+        "b_inline_math_01_01": "\\int_1^e (x\\ln x)^2 dx",
+        "c_inline_math_01_01": "\\int_0^{3\\pi/2} \\frac{dx}{2 + \\cos x}",
+        "d_inline_math_01_01": "\\int_0^{\\pi/6} \\frac{\\sin^2 x\\cos x}{(1 + \\tan^2 x)^2}dx",
+        "e_inline_math_01_01": "\\int_0^3 \\arcsin\\sqrt{\\frac{x}{1 + x}}dx",
+        "f_inline_math_01_01": "\\int_0^{\\frac{\\pi}{2}} \\cos^n x \\cos(nx)dx,\\ n \\in \\mathbb{N}^*"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_definite_integrals"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Chứng minh rằng nếu",
+        "inline_math_01_01": "f(x)",
+        "line_01_02": "liên tục trên",
+        "inline_math_01_02": "[0, 1]",
+        "line_01_03": "thì"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\int_0^{\\pi/2} f(\\sin x)dx = \\int_0^{\\pi/2} f(\\cos x)dx",
+        "b_inline_math_01_01": "\\int_0^\\pi x f(\\sin x)dx = \\int_0^\\pi \\frac{\\pi}{2} f(\\sin x)dx",
+        "c_line_01_01": "Áp dụng công thức trên, tính các tích phân sau: 1.",
+        "c_inline_math_01_01": "\\int_0^\\pi \\frac{x\\sin x dx}{1 + \\cos^2 x}",
+        "d_line_01_01": "2.",
+        "d_inline_math_01_01": "\\int_0^{\\pi/2} \\frac{\\sqrt{\\sin x}dx}{\\sqrt{\\sin x} + \\sqrt{\\cos x}}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c2_definite_integrals"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Cho",
+        "inline_math_01_01": "f(x), g(x)",
+        "line_01_02": "là hai hàm số khả tích trên",
+        "inline_math_01_02": "[a, b]",
+        "line_01_03": ". Chứng minh bất đẳng thức (với",
+        "inline_math_01_03": "a < b",
+        "line_01_04": ")",
+        "display_math_02_01": "\\left(\\int_a^b f(x)g(x)dx\\right)^2 \\leq \\left(\\int_a^b f^2(x)dx\\right)\\left(\\int_a^b g^2(x)dx\\right).",
+        "line_03_01": "(Bất đẳng thức Cauchy-Schwartz)"
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_improper_infinite_intervals",
+        "c2_improper_unbounded_functions"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Xét sự hội tụ và tính (trong trường hợp hội tụ) các tích phân suy rộng sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\int_{-\\infty}^0 x e^x dx",
+        "b_inline_math_01_01": "\\int_{-\\infty}^{+\\infty} \\frac{dx}{(x^2 + 1)^2}",
+        "c_inline_math_01_01": "\\int_0^1 \\frac{dx}{\\sqrt{x(1 - x)}}",
+        "d_inline_math_01_01": "\\int_2^{+\\infty} \\frac{dx}{x\\ln x}",
+        "e_inline_math_01_01": "\\int_0^{+\\infty} \\frac{dx}{x^2 + 3x + 2}",
+        "f_inline_math_01_01": "\\int_0^{+\\infty} \\frac{x^2 + 1}{x^4 + 1}dx"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_improper_convergence_tests"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Xét sự hội tụ của các tích phân suy rộng sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\int_1^{+\\infty} \\frac{\\ln(1 + x)dx}{x^2}",
+        "b_inline_math_01_01": "\\int_1^{+\\infty} \\frac{dx}{\\sqrt{x + x^3}}",
+        "c_inline_math_01_01": "\\int_2^{+\\infty} \\frac{xdx}{\\ln^3 x}",
+        "d_inline_math_01_01": "\\int_0^1 \\frac{dx}{\\tan x - x}",
+        "e_inline_math_01_01": "\\int_0^\\pi \\frac{dx}{\\sqrt[3]{\\sin x}}",
+        "f_inline_math_01_01": "\\int_0^{+\\infty} \\frac{\\ln(1 + 3x)}{x\\sqrt{x}}dx",
+        "g_inline_math_01_01": "\\int_0^{+\\infty} \\cos(\\alpha x)e^{-sx}dx,\\ s > 0",
+        "h_inline_math_01_01": "\\int_0^{+\\infty} e^{-sx}\\ln x dx,\\ s > 0",
+        "i_inline_math_01_01": "\\int_0^{+\\infty} \\frac{x - \\sin x}{\\sqrt{x^7}}dx",
+        "j_inline_math_01_01": "\\int_0^{+\\infty} \\frac{\\arctan x dx}{\\sqrt{x^3}}",
+        "k_inline_math_01_01": "\\int_0^{+\\infty} \\frac{\\sin 2x}{x}dx",
+        "l_inline_math_01_01": "\\int_0^{+\\infty} \\frac{\\cos x - \\cos 2x}{\\sqrt{x}(1 + x^2)}dx"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null,
+        "g": null,
+        "h": null,
+        "i": null,
+        "j": null,
+        "k": null,
+        "l": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c2_improper_unbounded_functions",
+        "c2_improper_convergence_tests"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Khảo sát sự hội tụ của tích phân suy rộng",
+        "inline_math_01_01": "\\int_0^1 x^\\alpha(\\ln x)^\\beta dx",
+        "line_01_02": "với",
+        "inline_math_01_02": "\\alpha, \\beta \\in \\mathbb{R}",
+        "line_01_03": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c2_improper_infinite_intervals",
+        "c2_improper_convergence_tests"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Chứng minh rằng tích phân suy rộng",
+        "inline_math_01_01": "\\int_0^{+\\infty} x^\\alpha e^{-2x}dx",
+        "line_01_02": "hội tụ khi và chỉ khi",
+        "inline_math_01_02": "\\alpha > -1",
+        "line_01_03": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c2_improper_infinite_intervals"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Nếu",
+        "inline_math_01_01": "\\int_0^{+\\infty} f(x)dx",
+        "line_01_02": "hội tụ thì có suy ra được",
+        "inline_math_01_02": "\\lim_{x \\to +\\infty} f(x) = 0",
+        "line_01_03": "không? Xét ví dụ",
+        "inline_math_01_03": "\\int_0^{+\\infty} \\sin(x^2)dx",
+        "line_01_04": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c2_improper_infinite_intervals"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Cho hàm",
+        "inline_math_01_01": "f(x)",
+        "line_01_02": "liên tục trên",
+        "inline_math_01_02": "[a, +\\infty)",
+        "line_01_03": "và",
+        "inline_math_01_03": "\\lim_{x \\to +\\infty} f(x) = A \\neq 0",
+        "line_01_04": ". Tích phân suy rộng",
+        "inline_math_01_04": "\\int_a^{+\\infty} f(x)dx",
+        "line_01_05": "có hội tụ không?"
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_app_plane_area"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính diện tích hình phẳng giới hạn bởi"
+      },
+      "part": {
+        "a_line_01_01": "Parabol",
+        "a_inline_math_01_01": "y = x^2 + 4",
+        "a_line_01_02": "và đường thẳng",
+        "a_inline_math_01_02": "x - y + 4 = 0",
+        "b_line_01_01": "Đường cong",
+        "b_inline_math_01_01": "y = x^3",
+        "b_line_01_02": "và các đường",
+        "b_inline_math_01_02": "y = x,\\ y = 4x,\\ (x \\geq 0)",
+        "c_line_01_01": "Đường tròn",
+        "c_inline_math_01_01": "x^2 + y^2 = 2x",
+        "c_line_01_02": "và parabol",
+        "c_inline_math_01_02": "y^2 = x,\\ (y^2 \\leq x)",
+        "d_line_01_01": "Đường cong",
+        "d_inline_math_01_01": "y^2 = x^2 - x^4",
+        "e_line_01_01": "Đường cong",
+        "e_inline_math_01_01": "x^4 + y^4 = x^2 + y^2"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c2_app_solid_volume"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Tính thể tích của vật thể là phần chung của hai hình trụ",
+        "inline_math_01_01": "x^2 + y^2 \\leq a^2",
+        "line_01_02": "và",
+        "inline_math_01_02": "y^2 + z^2 \\leq a^2,\\ (a > 0)",
+        "line_01_03": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c2_app_solid_volume"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Tính thể tích vật thể giới hạn bởi mặt cong",
+        "inline_math_01_01": "z = 4 - y^2",
+        "line_01_02": ", các mặt phẳng tọa độ",
+        "inline_math_01_02": "x = 0,\\ z = 0",
+        "line_01_03": "và mặt phẳng",
+        "inline_math_01_03": "x = a\\ (a \\neq 0)",
+        "line_01_04": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_app_solid_volume"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính thể tích khối tròn xoay tạo nên khi quay hình giới hạn bởi các đường",
+        "inline_math_01_01": "y = 2x - x^2",
+        "line_01_02": "và",
+        "inline_math_01_02": "y = 0"
+      },
+      "part": {
+        "a_line_01_01": "quanh trục Ox một vòng",
+        "b_line_01_01": "quanh trục Oy một vòng"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_app_arc_length"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính độ dài các đường cong sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "y = \\ln\\frac{e^x + 1}{e^x - 1}",
+        "a_line_01_01": "khi",
+        "a_inline_math_01_02": "x",
+        "a_line_01_02": "biến thiên từ 1 đến 2",
+        "b_line_01_01": "",
+        "b_display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "x = a\\left(\\cos t + \\ln\\tan\\frac{t}{2}\\right)",
+            "y = a\\sin t"
+          ]
+        },
+        "b_line_03_01": "khi",
+        "b_inline_math_03_01": "t",
+        "b_line_03_02": "biến thiên từ",
+        "b_inline_math_03_02": "\\frac{\\pi}{3}",
+        "b_line_03_03": "đến",
+        "b_inline_math_03_03": "\\frac{\\pi}{2},\\ (a > 0)"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c2_app_surface_of_revolution"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính diện tích mặt tròn xoay tạo nên khi quay các đường sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "y = \\sin x,\\ 0 \\leq x \\leq \\frac{\\pi}{2}",
+        "a_line_01_01": "quay quanh trục Ox",
+        "b_inline_math_01_01": "y = \\frac{1}{3}(1 - x)^3,\\ 0 \\leq x \\leq 1",
+        "b_line_01_01": "quay quanh trục Ox"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c1_function_concepts"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm miền xác định của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "z = \\frac{1}{\\sqrt{x^2 + y^2 - 1}}",
+        "b_inline_math_01_01": "z = \\sqrt{(x^2 + y^2 - 1)(4 - x^2 - y^2)}",
+        "c_inline_math_01_01": "z = \\arcsin\\frac{y - 1}{x}",
+        "d_inline_math_01_01": "z = \\sqrt{x\\sin y}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_chain_rule"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các hàm số hợp sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "f(x, y) = \\frac{x^2 + y^2}{x^3 y + y^3 x},\\ x(t) = \\cos t,\\ y(t) = \\sin t",
+        "a_line_01_01": ". Tính",
+        "a_inline_math_01_02": "f(x(t), y(t))",
+        "a_line_01_02": ".",
+        "b_inline_math_01_01": "f(x, y) = e^{x^2 + y^2}(x^2 + xy + y^2),\\ u(r, \\theta) = r\\cos\\theta,\\ v(r, \\theta) = r\\sin\\theta",
+        "b_line_01_01": ". Tính",
+        "b_inline_math_01_02": "f(u(r, \\theta), v(r, \\theta))",
+        "b_line_01_02": "."
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_multivariable_limits"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm các giới hạn (nếu có) của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "f(x, y) = \\frac{xy}{x^2 + y^2},\\ (x, y) \\to (0, 0)",
+        "b_inline_math_01_01": "f(x, y) = \\frac{(x - 1)^3 - (y - 2)^3}{(x - 1)^2 + (y - 2)^2},\\ (x, y) \\to (1, 2)",
+        "c_inline_math_01_01": "f(x, y) = \\frac{1 - \\cos\\sqrt{x^2 + y^2}}{x^2 + y^2},\\ (x, y) \\to (0, 0)",
+        "d_inline_math_01_01": "f(x, y) = \\frac{x(e^y - 1) - y(e^x - 1)}{x^2 + y^2},\\ (x, y) \\to (0, 0)",
+        "e_inline_math_01_01": "f(x, y) = \\frac{xy^2}{x^2 + y^4},\\ (x, y) \\to (0, 0)"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_multivariable_limits"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Xét hàm số",
+        "display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "x^2\\sin\\frac{1}{y}\\ \\text{nếu } y \\neq 0,",
+            "0\\ \\text{nếu } y = 0."
+          ]
+        }
+      },
+      "part": {
+        "a_line_01_01": "Chứng minh hàm số",
+        "a_inline_math_01_01": "f(x, y)",
+        "a_line_01_02": "liên tục tại",
+        "a_inline_math_01_02": "(0, 0)",
+        "a_line_01_03": ".",
+        "b_line_01_01": "Chứng minh hàm số",
+        "b_inline_math_01_01": "f(x, y)",
+        "b_line_01_02": "không liên tục tại mọi điểm",
+        "b_inline_math_01_02": "(x, 0), x \\in \\mathbb{R} \\setminus \\{0\\}",
+        "b_line_01_03": "."
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_multivariable_limits"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các giới hạn sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "\\lim_{x \\to 0} \\lim_{y \\to 0} \\frac{x^2}{x^2 + y^2}",
+        "b_inline_math_01_01": "\\lim_{y \\to 0} \\lim_{x \\to 0} \\frac{x^2}{x^2 + y^2}",
+        "c_inline_math_01_01": "\\lim_{(x, y) \\to (0, 0)} \\frac{x^2}{x^2 + y^2}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_partial_derivatives"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các đạo hàm riêng của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "z = \\ln(x + \\sqrt{x^2 + y^2})",
+        "b_inline_math_01_01": "z = y^2\\sin\\frac{x}{y}",
+        "c_inline_math_01_01": "z = \\arctan\\sqrt{\\frac{x^2 - y^2}{x^2 + y^2}}",
+        "d_inline_math_01_01": "z = x^{y^3}\\ (x > 0)",
+        "e_inline_math_01_01": "u = x^{y^z}\\ (x, y, z > 0)",
+        "f_inline_math_01_01": "u = e^{\\frac{1}{x^2 + y^2 + z^2}}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_multivariable_limits",
+        "c3_partial_derivatives"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Khảo sát sự liên tục của hàm số và sự tồn tại các đạo hàm riêng của nó"
+      },
+      "part": {
+        "a_line_01_01": "",
+        "a_inline_math_01_01": "f(x, y) =",
+        "a_display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "x\\arctan\\left(\\frac{y}{x}\\right)^2,\\ \\text{nếu } x \\neq 0,",
+            "0,\\ \\text{nếu } x = 0."
+          ]
+        },
+        "b_line_01_01": "",
+        "b_inline_math_01_01": "f(x, y) =",
+        "b_display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "\\frac{x\\sin y - y\\sin x}{x^2 + y^2},\\ \\text{nếu } (x, y) \\neq (0, 0),",
+            "0,\\ \\text{nếu } (x, y) = (0, 0)."
+          ]
+        }
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c3_partial_derivatives",
+        "c3_chain_rule"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Giả sử",
+        "inline_math_01_01": "z = y f(x^2 - y^2)",
+        "line_01_02": ", ở đây",
+        "inline_math_01_02": "f",
+        "line_01_03": "là hàm số khả vi. Chứng minh rằng",
+        "display_math_02_01": "\\frac{1}{x} z'_x + \\frac{1}{y} z'_y = \\frac{z}{y^2}."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_chain_rule"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm đạo hàm riêng các hàm số hợp sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "z = e^{u^2 - 2v^2},\\ u = \\cos x,\\ v = \\sqrt{x^2 + y^2}",
+        "b_inline_math_01_01": "z = \\ln(u^2 + v^2),\\ u = xy,\\ v = \\frac{x}{y}",
+        "c_inline_math_01_01": "z = \\arcsin(x - y),\\ x = 3t,\\ y = 4t^3"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c3_higher_order_derivatives"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Cho",
+        "inline_math_01_01": "f",
+        "line_01_02": "là hàm số khả vi đến cấp hai trên",
+        "inline_math_01_02": "\\mathbb{R}",
+        "line_01_03": ". Chứng minh rằng hàm số",
+        "inline_math_01_03": "\\omega(x, t) = f(x - 3t)",
+        "line_01_04": "thỏa mãn phương trình truyền sóng",
+        "display_math_02_01": "\\frac{\\partial^2 \\omega}{\\partial t^2} = 9\\frac{\\partial^2 \\omega}{\\partial x^2}."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_total_differentials"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm vi phân toàn phần của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "z = \\sin(x^2 + y^2)",
+        "b_inline_math_01_01": "z = \\ln\\tan\\frac{y}{x}",
+        "c_inline_math_01_01": "z = \\arctan\\frac{x + y}{x - y}",
+        "d_inline_math_01_01": "u = x^{y^{2z}}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_total_differentials"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Ứng dụng vi phân, tính gần đúng:"
+      },
+      "part": {
+        "a_inline_math_01_01": "A = \\sqrt[3]{(1,02)^2 + (0,05)^2}",
+        "b_inline_math_01_01": "B = \\ln(\\sqrt[3]{1,03} + \\sqrt[4]{0,98} - 1)",
+        "c_inline_math_01_01": "C = \\sqrt{(2,02)^3 + e^{0,03}}",
+        "d_inline_math_01_01": "D = (1,02)^{1,01}"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c3_implicit_functions",
+        "c3_total_differentials"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Cho",
+        "inline_math_01_01": "z = f(x, y)",
+        "line_01_02": "là hàm số ẩn xác định bởi phương trình",
+        "inline_math_01_02": "z - ye^{\\frac{z}{x}} = 0",
+        "line_01_03": ". Ứng dụng vi phân, tính gần đúng",
+        "inline_math_01_03": "f(0,99; 0,02)",
+        "line_01_04": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_implicit_functions"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm đạo hàm, đạo hàm riêng của các hàm số ẩn xác định bởi các phương trình sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "x^3 y - y^3 x = a^4",
+        "a_line_01_01": ", tính",
+        "a_inline_math_01_02": "y'",
+        "b_inline_math_01_01": "x + y + z = e^z",
+        "b_line_01_01": ", tính",
+        "b_inline_math_01_02": "z'_x, z'_y",
+        "c_inline_math_01_01": "\\arctan\\frac{x + y}{a} = \\frac{y}{a}",
+        "c_line_01_01": ", tính",
+        "c_inline_math_01_02": "y'",
+        "d_inline_math_01_01": "x^3 + y^3 + z^3 - 3xyz = 0",
+        "d_line_01_01": ", tính",
+        "d_inline_math_01_02": "z'_x, z'_y"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c3_implicit_functions"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Cho hàm số ẩn",
+        "inline_math_01_01": "z = z(x, y)",
+        "line_01_02": "xác định bởi phương trình",
+        "inline_math_01_02": "2x^2 y + 4y^2 + x^2 z + z^3 = 3",
+        "line_01_03": ". Tính",
+        "inline_math_01_03": "\\frac{\\partial z}{\\partial x}(0; 1), \\frac{\\partial z}{\\partial y}(0; 1)",
+        "line_01_04": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c3_implicit_functions",
+        "c3_chain_rule"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Cho",
+        "inline_math_01_01": "u = \\frac{x + z}{y + z}",
+        "line_01_02": ", tính",
+        "inline_math_01_02": "u'_x, u'_y",
+        "line_01_03": "biết rằng",
+        "inline_math_01_03": "z",
+        "line_01_04": "là hàm số ẩn của",
+        "inline_math_01_04": "x, y",
+        "line_01_05": "xác định bởi phương trình",
+        "inline_math_01_05": "z e^z = x e^x + y e^y",
+        "line_01_06": "."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c3_implicit_functions"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Tìm đạo hàm của hàm số ẩn",
+        "inline_math_01_01": "y(x), z(x)",
+        "line_01_02": "xác định bởi hệ",
+        "display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "x + y + z = 0",
+            "x^2 + y^2 + z^2 = 1."
+          ]
+        }
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c3_implicit_functions"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Phương trình",
+        "inline_math_01_01": "z^2 + \\frac{2}{x} = \\sqrt{y^2 - z^2}",
+        "line_01_02": ", xác định hàm ẩn",
+        "inline_math_01_02": "z = z(x, y)",
+        "line_01_03": ". Chứng minh rằng",
+        "display_math_02_01": "x^2 z'_x + \\frac{1}{y} z'_y = \\frac{1}{z}."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_higher_order_derivatives"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính các đạo hàm riêng cấp hai của hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "z = \\frac{1}{3}\\sqrt{(x^2 + y^2)^3}",
+        "b_inline_math_01_01": "z = x^2\\ln(x + y)",
+        "c_inline_math_01_01": "z = \\arctan\\frac{y}{x}",
+        "d_inline_math_01_01": "z = \\sin(x^3 + y^2)"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_higher_order_derivatives"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính vi phân cấp hai của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "z = xy^3 - x^2 y",
+        "b_inline_math_01_01": "z = e^{2x}(x + y^2)",
+        "c_inline_math_01_01": "z = \\ln(x^3 + y^2)"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_higher_order_derivatives"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Xét hàm số",
+        "display_system_02_01": {
+          "style": "cases",
+          "eqs": [
+            "\\frac{y^3 x}{x^2 + y^2}\\ \\text{nếu } (x, y) \\neq (0, 0),",
+            "0\\ \\text{nếu } (x, y) = (0, 0)."
+          ]
+        }
+      },
+      "part": {
+        "a_line_01_01": "Chứng minh rằng",
+        "a_inline_math_01_01": "f(x, y)",
+        "a_line_01_02": "có đạo hàm riêng tại",
+        "a_inline_math_01_02": "(0, 0)",
+        "a_line_01_03": "và",
+        "a_inline_math_01_03": "f'_x(x, y), f'_y(x, y)",
+        "a_line_01_04": "liên tục tại",
+        "a_inline_math_01_04": "(0, 0)",
+        "a_line_01_05": ".",
+        "b_line_01_01": "Chứng minh rằng các đạo hàm riêng cấp hai",
+        "b_inline_math_01_01": "f''_{xy}",
+        "b_line_01_02": "và",
+        "b_inline_math_01_02": "f''_{yx}",
+        "b_line_01_03": "của",
+        "b_inline_math_01_03": "f(x, y)",
+        "b_line_01_04": "không liên tục tại",
+        "b_inline_math_01_04": "(0, 0)",
+        "b_line_01_05": "(Gợi ý: Tính",
+        "b_inline_math_01_05": "f''_{xy}(0, 0), f''_{yx}(0, 0)",
+        "b_line_01_06": ")."
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_higher_order_derivatives"
+      ],
+      "point": null,
+      "main": {},
+      "part": {
+        "a_line_01_01": "Khai triển hàm số",
+        "a_inline_math_01_01": "f(x, y) = x^2 + 3y^2 - 2xy + 6x + 2y - 4",
+        "a_line_01_02": "thành chuỗi Taylor ở lân cận điểm",
+        "a_inline_math_01_02": "(-2, 1)",
+        "a_line_01_03": ".",
+        "b_line_01_01": "Khai triển Maclaurin hàm số",
+        "b_inline_math_01_01": "f(x, y) = e^x\\sin y",
+        "b_line_01_02": "đến bậc 3."
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_unconstrained_extrema"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tìm cực trị của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "z = 4x^3 + 6x^2 - 4xy - y^2 - 8x + 2",
+        "b_inline_math_01_01": "z = 2x^2 + 3y^2 - e^{-(x^2 + y^2)}",
+        "c_inline_math_01_01": "z = 4xy - x^4 - 2y^2",
+        "d_inline_math_01_01": "z = \\frac{4}{x} + \\frac{3}{y} - \\frac{xy}{12}",
+        "e_inline_math_01_01": "z = e^{2x}(4x^2 - 2xy + y^2)",
+        "f_inline_math_01_01": "z = x^3 + y^3 - (x + y)^2"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null,
+        "e": null,
+        "f": null
+      }
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_SP",
+      "section_tags": [
+        "c3_global_extrema"
+      ],
+      "point": null,
+      "question": {
+        "line_01_01": "Tìm một điểm thuộc elip",
+        "inline_math_01_01": "4x^2 + y^2 = 4",
+        "line_01_02": "sao cho nó xa điểm",
+        "inline_math_01_02": "A(1; 0)",
+        "line_01_03": "nhất."
+      },
+      "solution": null
+    },
+    {
+      "question_code": null,
+      "question_type": "FRQ_MP",
+      "section_tags": [
+        "c3_global_extrema"
+      ],
+      "point": null,
+      "main": {
+        "line_01_01": "Tính giá trị lớn nhất và bé nhất của các hàm số sau:"
+      },
+      "part": {
+        "a_inline_math_01_01": "z = x^2 + y^2 + xy - 7x - 8y",
+        "a_line_01_01": "trong hình tam giác giới hạn bởi các đường thẳng",
+        "a_inline_math_01_02": "x = 0,\\ y = 0",
+        "a_line_01_02": ", và",
+        "a_inline_math_01_03": "x + y = 6",
+        "b_inline_math_01_01": "z = 4x^2 - 9y^2",
+        "b_line_01_01": "trong miền giới hạn bởi đường elip",
+        "b_inline_math_01_02": "\\frac{x^2}{9} + \\frac{y^2}{4} = 1"
+      },
+      "end": null,
+      "solution": {
+        "a": null,
+        "b": null
+      }
+    }
+  ]
+}
